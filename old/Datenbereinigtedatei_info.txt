@@ -1,0 +1,63 @@
+================================================================================
+CSV ANALYSE REPORT - Datenbereinigtedatei.csv
+Erstellt am: 07.11.2025 12:28:37
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 12610 Zeilen × 1 Spalten
+🔢 Gesamt-Datenpunkte: 12,610
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. destination	passenger	weather	temperature	time	coupon	expiration	gender	age	maritalStatus	has_children	education	occupation	income	Bar	CoffeeHouse	CarryAway	RestaurantLessThan20	Restaurant20To50	toCoupon_GEQ5min	toCoupon_GEQ15min	toCoupon_GEQ25min	direction_same	direction_opp	Coupon_Accepted	age_info	incomedegree → object       | Beispiele: No Urgent Place	Alone	Sun, No Urgent Place	Friend(s), No Urgent Place	Friend(s)
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+  destination\tpassenger\tweather\ttemperature\ttime\tcoupon\texpiration\tgender\tage\tmaritalStatus\thas_children\teducation\toccupation\tincome\tBar\tCoffeeHouse\tCarryAway\tRestaurantLessThan20\tRestaurant20To50\ttoCoupon_GEQ5min\ttoCoupon_GEQ15min\ttoCoupon_GEQ25min\tdirection_same\tdirection_opp\tCoupon_Accepted\tage_info\tincomedegree
+0  No Urgent Place\tAlon...                                                                                                                                                                                                                                                                                                                           
+1  No Urgent Place\tFrie...                                                                                                                                                                                                                                                                                                                           
+2  No Urgent Place\tFrie...                                                                                                                                                                                                                                                                                                                           
+3  No Urgent Place\tFrie...                                                                                                                                                                                                                                                                                                                           
+4  No Urgent Place\tFrie...                                                                                                                                                                                                                                                                                                                           
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+      destination\tpassenger\tweather\ttemperature\ttime\tcoupon\texpiration\tgender\tage\tmaritalStatus\thas_children\teducation\toccupation\tincome\tBar\tCoffeeHouse\tCarryAway\tRestaurantLessThan20\tRestaurant20To50\ttoCoupon_GEQ5min\ttoCoupon_GEQ15min\ttoCoupon_GEQ25min\tdirection_same\tdirection_opp\tCoupon_Accepted\tage_info\tincomedegree
+12605  Home\tPartner\tRainy\...                                                                                                                                                                                                                                                                                                                           
+12606  Work\tAlone\tRainy\t5...                                                                                                                                                                                                                                                                                                                           
+12607  Work\tAlone\tSnowy\t3...                                                                                                                                                                                                                                                                                                                           
+12608  Work\tAlone\tSnowy\t3...                                                                                                                                                                                                                                                                                                                           
+12609  Work\tAlone\tSunny\t8...                                                                                                                                                                                                                                                                                                                           
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 12610 entries, 0 to 12609
+Data columns (total 1 columns):
+  0  destination	passenger	weather	temperature	time	coupon	expiration	gender	age	maritalStatus	has_children	education	occupation	income	Bar	CoffeeHouse	CarryAway	RestaurantLessThan20	Restaurant20To50	toCoupon_GEQ5min	toCoupon_GEQ15min	toCoupon_GEQ25min	direction_same	direction_opp	Coupon_Accepted	age_info	incomedegree  12610 non-null  object
+Memory usage: 2770.9 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+✅ Keine fehlenden Werte gefunden!
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+destination	passenger	weather	temperature	time	coupon	expiration	gender	age	maritalStatus	has_children	education	occupation	income	Bar	CoffeeHouse	CarryAway	RestaurantLessThan20	Restaurant20To50	toCoupon_GEQ5min	toCoupon_GEQ15min	toCoupon_GEQ25min	direction_same	direction_opp	Coupon_Accepted	age_info	incomedegree: 12610 eindeutige Werte, häufigster: 'Home	Alone	Rainy	55	10PM	Coffee House	1d	Female	26	Single	0	Bachelors degree	Computer & Mathematical	$25000 - $37499	less1	less1	4~8	1~3	never	1	0	0	1	0	1	26	31250'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+⚠️ Mindestens 2 numerische Spalten für erweiterte Analysen erforderlich
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+destination\tpassenger\tweather\ttemperature\ttime\tcoupon\texpiration\tgender\tage\tmaritalStatus\thas_children\teducation\toccupation\tincome\tBar\tCoffeeHouse\tCarryAway\tRestaurantLessThan20\tRestaurant20To50\ttoCoupon_GEQ5min\ttoCoupon_GEQ15min\ttoCoupon_GEQ25min\tdirection_same\tdirection_opp\tCoupon_Accepted\tage_info\tincomedegree    0

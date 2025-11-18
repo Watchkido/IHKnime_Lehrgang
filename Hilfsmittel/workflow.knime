@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/Workflow">
+    <entry key="name" type="xstring">Data Analysis Workflow</entry>
+    <entry key="author" type="xstring">Erstellt durch ChatGPT</entry>
+    <entry key="created" type="xstring">2025-01-01</entry>
+
+    <entry key="description" type="xstring">
+        Kompletter KNIME Workflow zur Datenbereinigung, Feature Engineering,
+        Modellierung und Ergebnisexport.
+    </entry>
+
+    <config key="nodes">
+        <config key="node_1">
+            <entry key="factory" type="xstring">org.knime.base.node.io.filehandling.read.FileReaderNodeFactory</entry>
+            <entry key="name" type="xstring">Load Raw Data</entry>
+        </config>
+
+        <config key="node_2">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.missingval.MissingValueNodeFactory</entry>
+            <entry key="name" type="xstring">Handle Missing Values</entry>
+        </config>
+
+        <config key="node_3">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.filter.rowduplicate.RowDuplicateFilterNodeFactory</entry>
+            <entry key="name" type="xstring">Remove Duplicates</entry>
+        </config>
+
+        <config key="node_4">
+            <entry key="factory" type="xstring">org.knime.base.node.meta.Met aNodeFactory</entry>
+            <entry key="name" type="xstring">Feature Engineering</entry>
+        </config>
+
+        <config key="node_5">
+            <entry key="factory" type="xstring">org.knime.base.node.partition.PartitionNodeFactory</entry>
+            <entry key="name" type="xstring">Train/Test Split</entry>
+        </config>
+
+        <config key="node_6">
+            <entry key="factory" type="xstring">org.knime.ext.weka.nodes.learners.trees.randomforest.RandomForestLearnerNodeFactory</entry>
+            <entry key="name" type="xstring">Random Forest Train</entry>
+        </config>
+
+        <config key="node_7">
+            <entry key="factory" type="xstring">org.knime.ext.weka.nodes.predictor.WekaPredictorNodeFactory</entry>
+            <entry key="name" type="xstring">Predict</entry>
+        </config>
+
+        <config key="node_8">
+            <entry key="factory" type="xstring">org.knime.base.node.mine.scorer.ScorerNodeFactory</entry>
+            <entry key="name" type="xstring">Evaluate Model</entry>
+        </config>
+
+        <config key="node_9">
+            <entry key="factory" type="xstring">org.knime.base.node.io.filehandling.write.ExcelWriterNodeFactory</entry>
+            <entry key="name" type="xstring">Write Output</entry>
+        </config>
+    </config>
+</config>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/Workflow">
+    <entry key="workflow.version" type="xstring">5.1</entry>
+    <entry key="auto.layout" type="xboolean">false</entry>
+</config>

@@ -1,0 +1,124 @@
+================================================================================
+CSV ANALYSE REPORT - netflix_titles.csv
+Erstellt am: 19.11.2025 08:28:27
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 8807 Zeilen × 12 Spalten
+🔢 Gesamt-Datenpunkte: 105,684
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. show_id                   → object       | Beispiele: s1, s2, s3
+ 2. type                      → object       | Beispiele: Movie, TV Show
+ 3. title                     → object       | Beispiele: Dick Johnson Is Dead, Blood & Water, Ganglands
+ 4. director                  → object       | Beispiele: Kirsten Johnson, Julien Leclercq, Mike Flanagan
+ 5. cast                      → object       | Beispiele: Ama Qamata, Khosi Ngema, , Sami Bouajila, Tracy Goto, Mayur More, Jitendra Kuma
+ 6. country                   → object       | Beispiele: United States, South Africa, India
+ 7. date_added                → object       | Beispiele: September 25, 2021, September 24, 2021, September 23, 2021
+ 8. release_year              → int64        | Beispiele: 2020, 2021, 1993
+ 9. rating                    → object       | Beispiele: PG-13, TV-MA, PG
+10. duration                  → object       | Beispiele: 90 min, 2 Seasons, 1 Season
+11. listed_in                 → object       | Beispiele: Documentaries, International TV Shows, T, Crime TV Shows, Internati
+12. description               → object       | Beispiele: As her father nears the e, After crossing paths at a, To protect his family fro
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+  show_id     type                  title         director                      cast        country          date_added  release_year rating   duration                 listed_in               description
+0      s1    Movie   Dick Johnson Is Dead  Kirsten Johnson                       NaN  United States  September 25, 2021          2020  PG-13     90 min             Documentaries  As her father nears t...
+1      s2  TV Show          Blood & Water              NaN  Ama Qamata, Khosi Nge...   South Africa  September 24, 2021          2021  TV-MA  2 Seasons  International TV Show...  After crossing paths ...
+2      s3  TV Show              Ganglands  Julien Leclercq  Sami Bouajila, Tracy ...            NaN  September 24, 2021          2021  TV-MA   1 Season  Crime TV Shows, Inter...  To protect his family...
+3      s4  TV Show  Jailbirds New Orleans              NaN                       NaN            NaN  September 24, 2021          2021  TV-MA   1 Season    Docuseries, Reality TV  Feuds, flirtations an...
+4      s5  TV Show           Kota Factory              NaN  Mayur More, Jitendra ...          India  September 24, 2021          2021  TV-MA  2 Seasons  International TV Show...  In a city of coaching...
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+     show_id     type        title         director                      cast        country         date_added  release_year rating   duration                 listed_in               description
+8802   s8803    Movie       Zodiac    David Fincher  Mark Ruffalo, Jake Gy...  United States  November 20, 2019          2007      R    158 min  Cult Movies, Dramas, ...  A political cartoonis...
+8803   s8804  TV Show  Zombie Dumb              NaN                       NaN            NaN       July 1, 2019          2018  TV-Y7  2 Seasons  Kids' TV, Korean TV S...  While living alone in...
+8804   s8805    Movie   Zombieland  Ruben Fleischer  Jesse Eisenberg, Wood...  United States   November 1, 2019          2009      R     88 min   Comedies, Horror Movies  Looking to survive in...
+8805   s8806    Movie         Zoom     Peter Hewitt  Tim Allen, Courteney ...  United States   January 11, 2020          2006     PG     88 min  Children & Family Mov...  Dragged from civilian...
+8806   s8807    Movie       Zubaan      Mozez Singh  Vicky Kaushal, Sarah-...          India      March 2, 2019          2015  TV-14    111 min  Dramas, International...  A scrappy but poor bo...
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 8807 entries, 0 to 8806
+Data columns (total 12 columns):
+  0  show_id                8807 non-null  object
+  1  type                   8807 non-null  object
+  2  title                  8807 non-null  object
+  3  director               6173 non-null  object
+  4  cast                   7982 non-null  object
+  5  country                7976 non-null  object
+  6  date_added             8797 non-null  object
+  7  release_year           8807 non-null  int64
+  8  rating                 8803 non-null  object
+  9  duration               8804 non-null  object
+ 10  listed_in              8807 non-null  object
+ 11  description            8807 non-null  object
+Memory usage: 8384.7 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+🚨 Gesamt fehlende Werte: 4,307
+director: 2634 fehlend (29.9%)
+cast: 825 fehlend (9.4%)
+country: 831 fehlend (9.4%)
+date_added: 10 fehlend (0.1%)
+rating: 4 fehlend (0.0%)
+duration: 3 fehlend (0.0%)
+
+🔢 6. NUMERISCHE STATISTIKEN
+----------------------------------------
+       release_year
+count   8807.000000
+mean    2014.180198
+std        8.819312
+min     1925.000000
+25%     2013.000000
+50%     2017.000000
+75%     2019.000000
+max     2021.000000
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+show_id                  : 8807 eindeutige Werte, häufigster: 's1'
+type                     :    2 eindeutige Werte, häufigster: 'Movie'
+title                    : 8807 eindeutige Werte, häufigster: '#Alive'
+director                 : 4528 eindeutige Werte, häufigster: 'Rajiv Chilaka'
+cast                     : 7692 eindeutige Werte, häufigster: 'David Attenborough'
+country                  :  748 eindeutige Werte, häufigster: 'United States'
+date_added               : 1767 eindeutige Werte, häufigster: 'January 1, 2020'
+rating                   :   17 eindeutige Werte, häufigster: 'TV-MA'
+duration                 :  220 eindeutige Werte, häufigster: '1 Season'
+listed_in                :  514 eindeutige Werte, häufigster: 'Dramas, International Movies'
+description              : 8775 eindeutige Werte, häufigster: 'Paranormal activity at a lush, abandoned property alarms a group eager to redevelop the site, but the eerie events may not be as unearthly as they think.'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+⚠️ Mindestens 2 numerische Spalten für erweiterte Analysen erforderlich
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+director        2634
+country          831
+cast             825
+date_added        10
+rating             4
+duration           3
+show_id            0
+type               0
+title              0
+release_year       0
+listed_in          0
+description        0

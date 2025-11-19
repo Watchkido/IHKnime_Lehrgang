@@ -1,0 +1,215 @@
+================================================================================
+CSV ANALYSE REPORT - 001_aktuelle_csv_datei.csv
+Erstellt am: 19.11.2025 07:13:44
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 4600 Zeilen × 18 Spalten
+🔢 Gesamt-Datenpunkte: 82,800
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. date                      → object       | Beispiele: 2014-05-02 00:00:00, 2014-05-03 00:00:00, 2014-05-04 00:00:00
+ 2. price                     → float64      | Beispiele: 313000.0, 2384000.0, 342000.0
+ 3. bedrooms                  → int64        | Beispiele: 3, 5, 4
+ 4. bathrooms                 → float64      | Beispiele: 1.5, 2.5, 2.0
+ 5. sqft_living               → int64        | Beispiele: 1340, 3650, 1930
+ 6. sqft_lot                  → int64        | Beispiele: 7912, 9050, 11947
+ 7. floors                    → float64      | Beispiele: 1.5, 2.0, 1.0
+ 8. waterfront                → int64        | Beispiele: 0, 1
+ 9. view                      → int64        | Beispiele: 0, 4, 1
+10. condition                 → int64        | Beispiele: 3, 5, 4
+11. sqft_above                → int64        | Beispiele: 1340, 3370, 1930
+12. sqft_basement             → int64        | Beispiele: 0, 280, 1000
+13. yr_built                  → int64        | Beispiele: 1955, 1921, 1966
+14. yr_renovated              → int64        | Beispiele: 2005, 0, 1992
+15. street                    → object       | Beispiele: 18810 Densmore Ave N, 709 W Blaine St, 26206-26214 143rd Ave SE
+16. city                      → object       | Beispiele: Shoreline, Seattle, Kent
+17. statezip                  → object       | Beispiele: WA 98133, WA 98119, WA 98042
+18. country                   → object       | Beispiele: USA
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+                  date      price  bedrooms  bathrooms  sqft_living  sqft_lot  floors  waterfront  view  condition  sqft_above  sqft_basement  yr_built  yr_renovated                    street       city  statezip country
+0  2014-05-02 00:00:00   313000.0         3       1.50         1340      7912     1.5           0     0          3        1340              0      1955          2005      18810 Densmore Ave N  Shoreline  WA 98133     USA
+1  2014-05-02 00:00:00  2384000.0         5       2.50         3650      9050     2.0           0     4          5        3370            280      1921             0           709 W Blaine St    Seattle  WA 98119     USA
+2  2014-05-02 00:00:00   342000.0         3       2.00         1930     11947     1.0           0     0          4        1930              0      1966             0  26206-26214 143rd Ave SE       Kent  WA 98042     USA
+3  2014-05-02 00:00:00   420000.0         3       2.25         2000      8030     1.0           0     0          4        1000           1000      1963             0           857 170th Pl NE   Bellevue  WA 98008     USA
+4  2014-05-02 00:00:00   550000.0         4       2.50         1940     10500     1.0           0     0          4        1140            800      1976          1992         9105 170th Ave NE    Redmond  WA 98052     USA
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+                     date          price  bedrooms  bathrooms  sqft_living  sqft_lot  floors  waterfront  view  condition  sqft_above  sqft_basement  yr_built  yr_renovated             street       city  statezip country
+4595  2014-07-09 00:00:00  308166.666667         3       1.75         1510      6360     1.0           0     0          4        1510              0      1954          1979     501 N 143rd St    Seattle  WA 98133     USA
+4596  2014-07-09 00:00:00  534333.333333         3       2.50         1460      7573     2.0           0     0          3        1460              0      1983          2009   14855 SE 10th Pl   Bellevue  WA 98007     USA
+4597  2014-07-09 00:00:00  416904.166667         3       2.50         3010      7014     2.0           0     0          3        3010              0      2009             0   759 Ilwaco Pl NE     Renton  WA 98059     USA
+4598  2014-07-10 00:00:00  203400.000000         4       2.00         2090      6630     1.0           0     0          3        1070           1020      1974             0  5148 S Creston St    Seattle  WA 98178     USA
+4599  2014-07-10 00:00:00  220600.000000         3       2.50         1490      8102     2.0           0     0          4        1490              0      1990             0  18717 SE 258th St  Covington  WA 98042     USA
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 4600 entries, 0 to 4599
+Data columns (total 18 columns):
+  0  date                   4600 non-null  object
+  1  price                  4600 non-null  float64
+  2  bedrooms               4600 non-null  int64
+  3  bathrooms              4600 non-null  float64
+  4  sqft_living            4600 non-null  int64
+  5  sqft_lot               4600 non-null  int64
+  6  floors                 4600 non-null  float64
+  7  waterfront             4600 non-null  int64
+  8  view                   4600 non-null  int64
+  9  condition              4600 non-null  int64
+ 10  sqft_above             4600 non-null  int64
+ 11  sqft_basement          4600 non-null  int64
+ 12  yr_built               4600 non-null  int64
+ 13  yr_renovated           4600 non-null  int64
+ 14  street                 4600 non-null  object
+ 15  city                   4600 non-null  object
+ 16  statezip               4600 non-null  object
+ 17  country                4600 non-null  object
+Memory usage: 1813.9 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+✅ Keine fehlenden Werte gefunden!
+
+🔢 6. NUMERISCHE STATISTIKEN
+----------------------------------------
+              price     bedrooms    bathrooms   sqft_living      sqft_lot       floors   waterfront         view    condition   sqft_above  sqft_basement     yr_built  yr_renovated
+count  4.600000e+03  4600.000000  4600.000000   4600.000000  4.600000e+03  4600.000000  4600.000000  4600.000000  4600.000000  4600.000000    4600.000000  4600.000000   4600.000000
+mean   5.519630e+05     3.400870     2.160815   2139.346957  1.485252e+04     1.512065     0.007174     0.240652     3.451739  1827.265435     312.081522  1970.786304    808.608261
+std    5.638347e+05     0.908848     0.783781    963.206916  3.588444e+04     0.538288     0.084404     0.778405     0.677230   862.168977     464.137228    29.731848    979.414536
+min    0.000000e+00     0.000000     0.000000    370.000000  6.380000e+02     1.000000     0.000000     0.000000     1.000000   370.000000       0.000000  1900.000000      0.000000
+25%    3.228750e+05     3.000000     1.750000   1460.000000  5.000750e+03     1.000000     0.000000     0.000000     3.000000  1190.000000       0.000000  1951.000000      0.000000
+50%    4.609435e+05     3.000000     2.250000   1980.000000  7.683000e+03     1.500000     0.000000     0.000000     3.000000  1590.000000       0.000000  1976.000000      0.000000
+75%    6.549625e+05     4.000000     2.500000   2620.000000  1.100125e+04     2.000000     0.000000     0.000000     4.000000  2300.000000     610.000000  1997.000000   1999.000000
+max    2.659000e+07     9.000000     8.000000  13540.000000  1.074218e+06     3.500000     1.000000     4.000000     5.000000  9410.000000    4820.000000  2014.000000   2014.000000
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+date                     :   70 eindeutige Werte, häufigster: '2014-06-23 00:00:00'
+street                   : 4525 eindeutige Werte, häufigster: '2520 Mulberry Walk NE'
+city                     :   44 eindeutige Werte, häufigster: 'Seattle'
+statezip                 :   77 eindeutige Werte, häufigster: 'WA 98103'
+country                  :    1 eindeutige Werte, häufigster: 'USA'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+⚠️  Spalten mit nur einem Wert: country
+
+🔗 9. KORRELATIONEN (NUMERISCHE SPALTEN)
+----------------------------------------
+🔥 bathrooms ↔ sqft_living: 0.761
+🔥 sqft_living ↔ sqft_above: 0.876
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+
+🔍 FORENSISCHE STATISTIK - ANOMALIEERKENNUNG
+--------------------------------------------------
+Werte mit |z-score| > 3 gelten als Ausreißer, da sie deutlich vom Mittelwert abweichen. Solche Anomalien können auf Messfehler, Datenprobleme oder besondere Ereignisse hinweisen. Sie sollten genauer geprüft werden, da sie die Analyse beeinflussen können.
+price: 34 Ausreißer (|z|>3.0)
+bedrooms: 19 Ausreißer (|z|>3.0)
+bathrooms: 27 Ausreißer (|z|>3.0)
+sqft_living: 50 Ausreißer (|z|>3.0)
+sqft_lot: 78 Ausreißer (|z|>3.0)
+floors: 2 Ausreißer (|z|>3.0)
+waterfront: 33 Ausreißer (|z|>3.0)
+view: 186 Ausreißer (|z|>3.0)
+condition: 6 Ausreißer (|z|>3.0)
+sqft_above: 53 Ausreißer (|z|>3.0)
+
+🧭 EXPLORATIVE STATISTIK - VERTEILUNGSANALYSE
+--------------------------------------------------
+Die Schiefe beschreibt, ob die Verteilung symmetrisch oder verzerrt ist. Die Kurtosis gibt an, ob die Verteilung spitz oder flach ist. Diese Maße helfen, die Form der Datenverteilung besser zu verstehen.
+price: Schiefe=24.78 (rechtsschief), Kurtosis=1043.22 (spitz (leptokurtisch))
+bedrooms: Schiefe=0.46 (symmetrisch), Kurtosis=1.23 (flach (platykurtisch))
+bathrooms: Schiefe=0.62 (rechtsschief), Kurtosis=1.86 (flach (platykurtisch))
+sqft_living: Schiefe=1.72 (rechtsschief), Kurtosis=8.28 (spitz (leptokurtisch))
+sqft_lot: Schiefe=11.30 (rechtsschief), Kurtosis=219.63 (spitz (leptokurtisch))
+floors: Schiefe=0.55 (rechtsschief), Kurtosis=-0.54 (flach (platykurtisch))
+waterfront: Schiefe=11.68 (rechtsschief), Kurtosis=134.40 (spitz (leptokurtisch))
+view: Schiefe=3.34 (rechtsschief), Kurtosis=10.45 (spitz (leptokurtisch))
+condition: Schiefe=0.96 (rechtsschief), Kurtosis=0.20 (flach (platykurtisch))
+sqft_above: Schiefe=1.49 (rechtsschief), Kurtosis=4.06 (spitz (leptokurtisch))
+
+🔮 PRÄDIKTIVE STATISTIK - REGRESSIONSANALYSE
+--------------------------------------------------
+Eine lineare Regression zeigt den Zusammenhang zwischen zwei Variablen. Die Regressionsgleichung und der R²-Wert geben an, wie gut die Daten durch das Modell erklärt werden. Prognosen sind möglich, sollten aber kritisch geprüft werden.
+bedrooms = 0.000 * price + ... (R²=0.040)
+
+🧠 DIAGNOSTISCHE STATISTIK - KORRELATIONEN
+--------------------------------------------------
+Korrelationen zeigen, wie stark zwei Variablen zusammenhängen. Ein hoher positiver oder negativer Wert weist auf einen engen Zusammenhang hin. Korrelation bedeutet jedoch nicht automatisch Kausalität.
+bathrooms ↔ sqft_living: 0.761
+sqft_living ↔ sqft_above: 0.876
+
+🔄 KAUSALE STATISTIK - REGRESSIONSSTATISTIKEN
+--------------------------------------------------
+Eine multiple Regression analysiert den Einfluss mehrerer Variablen auf eine Zielgröße. Die Koeffizienten und p-Werte geben Aufschluss über die Bedeutung der einzelnen Einflussfaktoren. Ein gutes Modell erklärt einen hohen Anteil der Varianz.
+Regressionsstatistik für price ~ Index(['bedrooms', 'bathrooms'], dtype='object'):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  price   R-squared:                       0.108
+Model:                            OLS   Adj. R-squared:                  0.107
+Method:                 Least Squares   F-statistic:                     277.4
+Date:                Wed, 19 Nov 2025   Prob (F-statistic):          1.89e-114
+Time:                        07:13:45   Log-Likelihood:                -67180.
+No. Observations:                4600   AIC:                         1.344e+05
+Df Residuals:                    4597   BIC:                         1.344e+05
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4392.0485   3.12e+04      0.141      0.888   -5.67e+04    6.55e+04
+bedrooms    1.923e+04   1.03e+04      1.864      0.062    -993.620    3.95e+04
+bathrooms   2.231e+05    1.2e+04     18.653      0.000       2e+05    2.47e+05
+==============================================================================
+Omnibus:                    11873.966   Durbin-Watson:                   1.957
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        331840194.116
+Skew:                          28.963   Prob(JB):                         0.00
+Kurtosis:                    1317.528   Cond. No.                         17.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+⏳ ZEITREIHENANALYSE
+--------------------------------------------------
+Zeitreihenanalysen erkennen Trends und Muster über die Zeit. Die Steigung zeigt, ob ein Wert im Zeitverlauf steigt, fällt oder stabil bleibt. Solche Analysen sind wichtig für Prognosen und saisonale Effekte.
+📈 Trend für price: steigend (Steigung: 970.013771/Tag)
+
+🎯 PRÄSKRIPTIVE STATISTIK - OPTIMIERUNGSEMPFEHLUNGEN
+--------------------------------------------------
+Optimierungsempfehlungen basieren auf Korrelationen zwischen Ziel- und Einflussgrößen. Sie zeigen, welche Werte angepasst werden könnten, um das Ziel zu verbessern. Die Empfehlungen sollten immer im Kontext geprüft werden.
+Keine starken Einflussfaktoren gefunden.
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+date             0
+price            0
+bedrooms         0
+bathrooms        0
+sqft_living      0
+sqft_lot         0
+floors           0
+waterfront       0
+view             0
+condition        0
+sqft_above       0
+sqft_basement    0
+yr_built         0
+yr_renovated     0
+street           0
+city             0
+statezip         0
+country          0

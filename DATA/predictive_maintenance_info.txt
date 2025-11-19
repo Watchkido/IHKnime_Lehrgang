@@ -1,0 +1,184 @@
+================================================================================
+CSV ANALYSE REPORT - predictive_maintenance (1).csv
+Erstellt am: 19.11.2025 08:29:24
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 10000 Zeilen × 10 Spalten
+🔢 Gesamt-Datenpunkte: 100,000
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. UDI                       → int64        | Beispiele: 1, 2, 3
+ 2. Product ID                → object       | Beispiele: M14860, L47181, L47182
+ 3. Type                      → object       | Beispiele: M, L, H
+ 4. Air temperature [K]       → float64      | Beispiele: 298.1, 298.2, 298.3
+ 5. Process temperature [K]   → float64      | Beispiele: 308.6, 308.7, 308.5
+ 6. Rotational speed [rpm]    → int64        | Beispiele: 1551, 1408, 1498
+ 7. Torque [Nm]               → float64      | Beispiele: 42.8, 46.3, 49.4
+ 8. Tool wear [min]           → int64        | Beispiele: 0, 3, 5
+ 9. Target                    → int64        | Beispiele: 0, 1
+10. Failure Type              → object       | Beispiele: No Failure, Power Failure, Tool Wear Failure
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+   UDI Product ID Type  Air temperature [K]  Process temperature [K]  Rotational speed [rpm]  Torque [Nm]  Tool wear [min]  Target Failure Type
+0    1     M14860    M                298.1                    308.6                    1551         42.8                0       0   No Failure
+1    2     L47181    L                298.2                    308.7                    1408         46.3                3       0   No Failure
+2    3     L47182    L                298.1                    308.5                    1498         49.4                5       0   No Failure
+3    4     L47183    L                298.2                    308.6                    1433         39.5                7       0   No Failure
+4    5     L47184    L                298.2                    308.7                    1408         40.0                9       0   No Failure
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+        UDI Product ID Type  Air temperature [K]  Process temperature [K]  Rotational speed [rpm]  Torque [Nm]  Tool wear [min]  Target Failure Type
+9995   9996     M24855    M                298.8                    308.4                    1604         29.5               14       0   No Failure
+9996   9997     H39410    H                298.9                    308.4                    1632         31.8               17       0   No Failure
+9997   9998     M24857    M                299.0                    308.6                    1645         33.4               22       0   No Failure
+9998   9999     H39412    H                299.0                    308.7                    1408         48.5               25       0   No Failure
+9999  10000     M24859    M                299.0                    308.7                    1500         40.2               30       0   No Failure
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 10 columns):
+  0  UDI                   10000 non-null  int64
+  1  Product ID            10000 non-null  object
+  2  Type                  10000 non-null  object
+  3  Air temperature [K]   10000 non-null  float64
+  4  Process temperature [K]  10000 non-null  float64
+  5  Rotational speed [rpm]  10000 non-null  int64
+  6  Torque [Nm]           10000 non-null  float64
+  7  Tool wear [min]       10000 non-null  int64
+  8  Target                10000 non-null  int64
+  9  Failure Type          10000 non-null  object
+Memory usage: 2151.4 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+✅ Keine fehlenden Werte gefunden!
+
+🔢 6. NUMERISCHE STATISTIKEN
+----------------------------------------
+               UDI  Air temperature [K]  Process temperature [K]  Rotational speed [rpm]   Torque [Nm]  Tool wear [min]        Target
+count  10000.00000         10000.000000             10000.000000            10000.000000  10000.000000     10000.000000  10000.000000
+mean    5000.50000           300.004930               310.005560             1538.776100     39.986910       107.951000      0.033900
+std     2886.89568             2.000259                 1.483734              179.284096      9.968934        63.654147      0.180981
+min        1.00000           295.300000               305.700000             1168.000000      3.800000         0.000000      0.000000
+25%     2500.75000           298.300000               308.800000             1423.000000     33.200000        53.000000      0.000000
+50%     5000.50000           300.100000               310.100000             1503.000000     40.100000       108.000000      0.000000
+75%     7500.25000           301.500000               311.100000             1612.000000     46.800000       162.000000      0.000000
+max    10000.00000           304.500000               313.800000             2886.000000     76.600000       253.000000      1.000000
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+Product ID               : 10000 eindeutige Werte, häufigster: 'H29424'
+Type                     :    3 eindeutige Werte, häufigster: 'L'
+Failure Type             :    6 eindeutige Werte, häufigster: 'No Failure'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+
+🔗 9. KORRELATIONEN (NUMERISCHE SPALTEN)
+----------------------------------------
+🔥 Air temperature [K] ↔ Process temperature [K]: 0.876
+🔥 Rotational speed [rpm] ↔ Torque [Nm]: -0.875
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+
+🔍 FORENSISCHE STATISTIK - ANOMALIEERKENNUNG
+--------------------------------------------------
+Werte mit |z-score| > 3 gelten als Ausreißer, da sie deutlich vom Mittelwert abweichen. Solche Anomalien können auf Messfehler, Datenprobleme oder besondere Ereignisse hinweisen. Sie sollten genauer geprüft werden, da sie die Analyse beeinflussen können.
+UDI: 0 Ausreißer (|z|>3.0)
+Air temperature [K]: 0 Ausreißer (|z|>3.0)
+Process temperature [K]: 0 Ausreißer (|z|>3.0)
+Rotational speed [rpm]: 164 Ausreißer (|z|>3.0)
+Torque [Nm]: 25 Ausreißer (|z|>3.0)
+Tool wear [min]: 0 Ausreißer (|z|>3.0)
+Target: 339 Ausreißer (|z|>3.0)
+
+🧭 EXPLORATIVE STATISTIK - VERTEILUNGSANALYSE
+--------------------------------------------------
+Die Schiefe beschreibt, ob die Verteilung symmetrisch oder verzerrt ist. Die Kurtosis gibt an, ob die Verteilung spitz oder flach ist. Diese Maße helfen, die Form der Datenverteilung besser zu verstehen.
+UDI: Schiefe=0.00 (symmetrisch), Kurtosis=-1.20 (flach (platykurtisch))
+Air temperature [K]: Schiefe=0.11 (symmetrisch), Kurtosis=-0.84 (flach (platykurtisch))
+Process temperature [K]: Schiefe=0.02 (symmetrisch), Kurtosis=-0.50 (flach (platykurtisch))
+Rotational speed [rpm]: Schiefe=1.99 (rechtsschief), Kurtosis=7.39 (spitz (leptokurtisch))
+Torque [Nm]: Schiefe=-0.01 (symmetrisch), Kurtosis=-0.01 (flach (platykurtisch))
+Tool wear [min]: Schiefe=0.03 (symmetrisch), Kurtosis=-1.17 (flach (platykurtisch))
+Target: Schiefe=5.15 (rechtsschief), Kurtosis=24.53 (spitz (leptokurtisch))
+
+🔮 PRÄDIKTIVE STATISTIK - REGRESSIONSANALYSE
+--------------------------------------------------
+Eine lineare Regression zeigt den Zusammenhang zwischen zwei Variablen. Die Regressionsgleichung und der R²-Wert geben an, wie gut die Daten durch das Modell erklärt werden. Prognosen sind möglich, sollten aber kritisch geprüft werden.
+Air temperature [K] = 0.000 * UDI + ... (R²=0.014)
+
+🧠 DIAGNOSTISCHE STATISTIK - KORRELATIONEN
+--------------------------------------------------
+Korrelationen zeigen, wie stark zwei Variablen zusammenhängen. Ein hoher positiver oder negativer Wert weist auf einen engen Zusammenhang hin. Korrelation bedeutet jedoch nicht automatisch Kausalität.
+Air temperature [K] ↔ Process temperature [K]: 0.876
+Rotational speed [rpm] ↔ Torque [Nm]: -0.875
+
+🔄 KAUSALE STATISTIK - REGRESSIONSSTATISTIKEN
+--------------------------------------------------
+Eine multiple Regression analysiert den Einfluss mehrerer Variablen auf eine Zielgröße. Die Koeffizienten und p-Werte geben Aufschluss über die Bedeutung der einzelnen Einflussfaktoren. Ein gutes Modell erklärt einen hohen Anteil der Varianz.
+Regressionsstatistik für UDI ~ Index(['Air temperature [K]', 'Process temperature [K]'], dtype='object'):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    UDI   R-squared:                       0.225
+Model:                            OLS   Adj. R-squared:                  0.225
+Method:                 Least Squares   F-statistic:                     1451.
+Date:                Wed, 19 Nov 2025   Prob (F-statistic):               0.00
+Time:                        08:29:24   Log-Likelihood:                -92594.
+No. Observations:               10000   AIC:                         1.852e+05
+Df Residuals:                    9997   BIC:                         1.852e+05
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                   -2.592e+05   5589.839    -46.369      0.000    -2.7e+05   -2.48e+05
+Air temperature [K]     -1035.7440     26.358    -39.295      0.000   -1087.412    -984.076
+Process temperature [K]  1854.5574     35.534     52.190      0.000    1784.903    1924.212
+==============================================================================
+Omnibus:                        4.504   Durbin-Watson:                   0.002
+Prob(Omnibus):                  0.105   Jarque-Bera (JB):                4.489
+Skew:                           0.042   Prob(JB):                        0.106
+Kurtosis:                       2.938   Cond. No.                     9.49e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.49e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+⏳ ZEITREIHENANALYSE
+--------------------------------------------------
+Zeitreihenanalysen erkennen Trends und Muster über die Zeit. Die Steigung zeigt, ob ein Wert im Zeitverlauf steigt, fällt oder stabil bleibt. Solche Analysen sind wichtig für Prognosen und saisonale Effekte.
+📅 Keine Datumsspalten für Zeitreihenanalyse gefunden
+
+🎯 PRÄSKRIPTIVE STATISTIK - OPTIMIERUNGSEMPFEHLUNGEN
+--------------------------------------------------
+Optimierungsempfehlungen basieren auf Korrelationen zwischen Ziel- und Einflussgrößen. Sie zeigen, welche Werte angepasst werden könnten, um das Ziel zu verbessern. Die Empfehlungen sollten immer im Kontext geprüft werden.
+Keine starken Einflussfaktoren gefunden.
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+UDI                        0
+Product ID                 0
+Type                       0
+Air temperature [K]        0
+Process temperature [K]    0
+Rotational speed [rpm]     0
+Torque [Nm]                0
+Tool wear [min]            0
+Target                     0
+Failure Type               0

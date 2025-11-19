@@ -1,0 +1,142 @@
+================================================================================
+CSV ANALYSE REPORT - ingame_purchasedata.csv
+Erstellt am: 19.11.2025 07:11:30
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 864236 Zeilen × 8 Spalten
+🔢 Gesamt-Datenpunkte: 6,913,888
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. first_name                → object       | Beispiele: Allen, Avery, Alice
+ 2. last_name                 → object       | Beispiele: Owens, Taylor, Sullivan
+ 3. age                       → int64        | Beispiele: 57, 41, 39
+ 4. income                    → object       | Beispiele: 29044.51, 73687.35, 82016.71
+ 5. purchase_count            → int64        | Beispiele: 27, 15, 17
+ 6. rating                    → object       | Beispiele: 3.29, 4.37, 2.22
+ 7. country                   → object       | Beispiele: UK, Australia, France
+ 8. timestamp                 → object       | Beispiele: 2021-08-07 04:07:18, 2020-04-25 01:37:58, 2023-07-28 08:09:15
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+  first_name last_name  age    income  purchase_count rating    country            timestamp
+0      Allen     Owens   57  29044.51              27   3.29         UK  2021-08-07 04:07:18
+1      Avery    Taylor   41  73687.35              15   4.37  Australia  2020-04-25 01:37:58
+2      Alice  Sullivan   39  82016.71              17   2.22     France  2023-07-28 08:09:15
+3      Brian    Miller   24  60285.14               9   4.26  Australia  2022-11-11 03:36:20
+4      Terry    Nguyen   32  32598.31              22   4.73    Germany  2021-04-30 14:49:47
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+       first_name last_name  age     income  purchase_count rating  country            timestamp
+864231      James     Reyes   80   33057.69              19   3.04       UK  2020-11-15 23:33:08
+864232     Edward  Gonzalez   21   28759.76              20   4.58  Germany  2020-07-08 08:43:54
+864233     George     James   24  105345.03              23   4.82  Germany  2020-12-22 13:34:48
+864234      Avery    Morgan   26   64008.32              19   2.78   Canada  2021-07-31 05:15:58
+864235   Savannah    Wilson   33  108379.73              17   2.07   Canada  2022-12-25 08:26:27
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 864236 entries, 0 to 864235
+Data columns (total 8 columns):
+  0  first_name           864236 non-null  object
+  1  last_name            864236 non-null  object
+  2  age                  864236 non-null  int64
+  3  income               855862 non-null  object
+  4  purchase_count       864236 non-null  int64
+  5  rating               855646 non-null  object
+  6  country              864236 non-null  object
+  7  timestamp            864236 non-null  object
+Memory usage: 301648.7 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+🚨 Gesamt fehlende Werte: 16,964
+income: 8374 fehlend (1.0%)
+rating: 8590 fehlend (1.0%)
+
+🔢 6. NUMERISCHE STATISTIKEN
+----------------------------------------
+                 age  purchase_count
+count  864236.000000   864236.000000
+mean       49.010958       16.508903
+std        18.177157        5.008093
+min        18.000000        0.000000
+25%        33.000000       13.000000
+50%        49.000000       17.000000
+75%        65.000000       20.000000
+max        80.000000       40.000000
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+first_name               :  100 eindeutige Werte, häufigster: 'James'
+last_name                :  210 eindeutige Werte, häufigster: 'Hunt'
+income                   : 812908 eindeutige Werte, häufigster: '-'
+rating                   :  803 eindeutige Werte, häufigster: '-'
+country                  :    6 eindeutige Werte, häufigster: 'France'
+timestamp                : 861386 eindeutige Werte, häufigster: '2020-12-25 00:30:31'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+
+🔗 9. KORRELATIONEN (NUMERISCHE SPALTEN)
+----------------------------------------
+✅ Keine sehr hohen Korrelationen gefunden
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+
+🔍 FORENSISCHE STATISTIK - ANOMALIEERKENNUNG
+--------------------------------------------------
+Werte mit |z-score| > 3 gelten als Ausreißer, da sie deutlich vom Mittelwert abweichen. Solche Anomalien können auf Messfehler, Datenprobleme oder besondere Ereignisse hinweisen. Sie sollten genauer geprüft werden, da sie die Analyse beeinflussen können.
+age: 0 Ausreißer (|z|>3.0)
+purchase_count: 2304 Ausreißer (|z|>3.0)
+
+🧭 EXPLORATIVE STATISTIK - VERTEILUNGSANALYSE
+--------------------------------------------------
+Die Schiefe beschreibt, ob die Verteilung symmetrisch oder verzerrt ist. Die Kurtosis gibt an, ob die Verteilung spitz oder flach ist. Diese Maße helfen, die Form der Datenverteilung besser zu verstehen.
+age: Schiefe=-0.00 (symmetrisch), Kurtosis=-1.20 (flach (platykurtisch))
+purchase_count: Schiefe=0.01 (symmetrisch), Kurtosis=-0.02 (flach (platykurtisch))
+
+🔮 PRÄDIKTIVE STATISTIK - REGRESSIONSANALYSE
+--------------------------------------------------
+Eine lineare Regression zeigt den Zusammenhang zwischen zwei Variablen. Die Regressionsgleichung und der R²-Wert geben an, wie gut die Daten durch das Modell erklärt werden. Prognosen sind möglich, sollten aber kritisch geprüft werden.
+purchase_count = -0.000 * age + ... (R²=0.000)
+
+🧠 DIAGNOSTISCHE STATISTIK - KORRELATIONEN
+--------------------------------------------------
+Korrelationen zeigen, wie stark zwei Variablen zusammenhängen. Ein hoher positiver oder negativer Wert weist auf einen engen Zusammenhang hin. Korrelation bedeutet jedoch nicht automatisch Kausalität.
+✅ Keine sehr hohen Korrelationen gefunden
+
+🔄 KAUSALE STATISTIK - REGRESSIONSSTATISTIKEN
+--------------------------------------------------
+Eine multiple Regression analysiert den Einfluss mehrerer Variablen auf eine Zielgröße. Die Koeffizienten und p-Werte geben Aufschluss über die Bedeutung der einzelnen Einflussfaktoren. Ein gutes Modell erklärt einen hohen Anteil der Varianz.
+
+⏳ ZEITREIHENANALYSE
+--------------------------------------------------
+Zeitreihenanalysen erkennen Trends und Muster über die Zeit. Die Steigung zeigt, ob ein Wert im Zeitverlauf steigt, fällt oder stabil bleibt. Solche Analysen sind wichtig für Prognosen und saisonale Effekte.
+📈 Trend für age: stabil (Steigung: 0.000088/Tag)
+
+🎯 PRÄSKRIPTIVE STATISTIK - OPTIMIERUNGSEMPFEHLUNGEN
+--------------------------------------------------
+Optimierungsempfehlungen basieren auf Korrelationen zwischen Ziel- und Einflussgrößen. Sie zeigen, welche Werte angepasst werden könnten, um das Ziel zu verbessern. Die Empfehlungen sollten immer im Kontext geprüft werden.
+Keine starken Einflussfaktoren gefunden.
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+rating            8590
+income            8374
+last_name            0
+first_name           0
+age                  0
+purchase_count       0
+country              0
+timestamp            0

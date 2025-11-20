@@ -1,0 +1,336 @@
+KPI Examples	VERWALTUNGSINDIKATOREN (KPI)	BESCHREIBUNG	FORMEL & KALKULATION	Wichtig	Links
+○Customer & Produkt Analysekennzahlen	Kundenanalysekennzahlen				
+○Customer & Produkt Analysekennzahlen	Kundenlebenswert (CLV)	Durchschnittliche Einnahmen pro Kunde über ihre Lebensdauer.	Durchschnittlicher Kaufwert × Kauf Frequenz × Kundenlebensdauer	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Kundenretention Rate	Prozentsatz der Kunden, die über einen bestimmten Zeitraum zurückgehalten werden.	((Endkunden - Neue Kunden) ÷ Start Kunden) × 100	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Zollsatz	Prozentsatz der Kunden, die während eines bestimmten Zeitraums verloren gingen.	(Kunden verloren ÷ Gesamtkunden) × 100	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Net Promoter Score (NPS)	Messt Kundenbindung und Wahrscheinlichkeit, die Marke zu empfehlen.	% Promoter - % Detractors	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Durchschnittliche Umsatz pro Nutzer (ARPU)	Einnahmen pro Benutzer im Durchschnitt während eines bestimmten Zeitraums generiert.	Gesamtumsatz ÷ Gesamtbenutzer	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Wiederholen Kaufpreis	Prozentsatz der Kunden, die einen Wiederverkauf tätigen.	(Repeat Kunden ÷ Gesamtkunden) × 100	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Kundenzufriedenheits-Score (CSAT)	Messt Kundenzufriedenheit basierend auf Umfrage-Feedback.	Gesamte positive Antworten ÷ Gesamte Antworten × 100	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Kundenbeschaffungskosten (CAC)	Kosten für den Erwerb eines einzelnen Kunden.	Total Marketing Spend ÷ Neue Kunden Erworben	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Kohorte Retentionsrate	Retentionsrate bestimmter Benutzergruppen (Kohorten) im Laufe der Zeit.	(Cohort Retained Users ÷ Cohort Total Users) × 100	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Aktive Nutzer	Gesamtzahl der Nutzer, die sich aktiv mit Ihrem Produkt/Service engagieren.	Zur Verfügung gestellt von Analysetools (z.B. Google Analytics, Mixpanel).	Hoch	
+○Customer & Produkt Analysekennzahlen	Monatliche wiederkehrende Einnahmen (MRR)	Insgesamt prognostizierbare Einnahmen, die monatlich von Kunden generiert werden.	Monatliche Abonnenten insgesamt × Durchschnittliche Einnahmen pro Benutzer	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Erstattungssatz	Prozentsatz der von den Kunden zurückerstatteten Aufträge.	(Refunded Orders ÷ Total Orders) × 100\t	Niedrig	Link
+○Customer & Produkt Analysekennzahlen	Nettoeinkommensretention (NRR)	Maßnahmen, die von bestehenden Kunden über einen Zeitraum zurückgehalten werden.	(Revenue Retained + Expansion Revenue - Churned Revenue) ÷ Anfang Umsatz × 100	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Kundenbindungspunkte	Kombiniert Produktnutzung, Interaktionen und Feedback in eine einzelne Partitur.	Berechnet mit angriffsspezifischen Metriken	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Zeit zur Auflösung	Durchschnittliche Zeit zur Lösung von Kundenproblemen.	Gesamtauflösung Zeit ÷ Gesamte Fälle	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Upsell Erfolgsquote	Prozentsatz der umgerechneten Upsell-Möglichkeiten.	(Erfolgreiche Upsells ÷ Total Upsell Opportunities) × 100	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Produktanalytikkennzahlen				
+○Customer & Produkt Analysekennzahlen	Angebotsliste Preis	Prozentsatz der Nutzer, die neue Funktionen übernehmen.	(Benutzer von Feature ÷ Total Active Users) × 100	Mittel	Link
+○Customer & Produkt Analysekennzahlen	An Bord der Abschlussquote	Prozentsatz der neuen Benutzer erfolgreich an Bord von Schritten.	(Benutzer abgeschlossen Onboarding ÷ Neue Benutzer) × 100	Hoch	
+○Customer & Produkt Analysekennzahlen	Produktnutzungsrate	Prozentsatz der Nutzer, die Ihr Produkt innerhalb eines Zeitraums aktiv nutzen.	(Active Users ÷ Total Users) × 100	Hoch	
+○Customer & Produkt Analysekennzahlen	Zeit zum ersten Wert (TTFV)	Zeit braucht es, um den Wert des Produkts zu erfahren.	Zeit des ersten Wertereignisses - An Bord der Startzeit	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Täglich aktive Nutzer (DAU)	Gesamtzahl der einzigartigen täglichen Benutzer.	Insgesamt einzigartige Nutzer pro Tag	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Monatliche aktive Nutzer (MAU)	Gesamtzahl der einzigartigen Benutzer über einen Monat.	Insgesamt einzigartige Benutzer pro Monat	Mittel	Link
+○Customer & Produkt Analysekennzahlen	Benutzerrückhalterate	Prozentsatz der Nutzer, die nach ihrer ersten Sitzung zum Produkt zurückkehren.	(Retained Users ÷ Total Users) × 100	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Durchschnittliche Sitzungsdauer	Durchschnittliche Zeit Benutzer verbringen auf Ihrem Produkt während einer Sitzung.	Sitzungsperiode insgesamt ÷ Sitzungen insgesamt	Hoch	
+○Customer & Produkt Analysekennzahlen	Sitzungshäufigkeit	Durchschnittliche Anzahl der Sitzungen pro Benutzer über einen bestimmten Zeitraum.	Gesamtsitzungen ÷ Gesamtbenutzer	Hoch	
+○Customer & Produkt Analysekennzahlen	Kundenbetreuung (CES)	Messt Aufwand Kunden Erfahrung mit Ihrem Produkt / Service.	Erhebungsmetrik basierend auf einer Skala (z.B. 1-5).	Hoch	Link
+○Customer & Produkt Analysekennzahlen	Bugs/Issues gemeldet	Gesamtzahl der von den Benutzern gemeldeten Fehler/Probleme.	Anzahl der Fehlerberichte	Niedrig	
+○Customer & Produkt Analysekennzahlen	Funktion Nutzungshäufigkeit	Häufigkeit, mit der Benutzer eine bestimmte Funktion verwenden.	(Feature Usage Events ÷ Total Sessions) × 100	Mittel	
+○Customer & Produkt Analysekennzahlen	Zeit Schlange pro Feature	Durchschnittliche Zeitverwender verbringen mit einer bestimmten Funktion.	Gesamtzeit auf Feature ÷ Feature Sessions	Mittel	
+📈 Finanzen und Rechnungswesen Kennzahlen	Einnahmen insgesamt	Gesamteinkommen aus allen Geschäftsbereichen über einen bestimmten Zeitraum.	Summe aller Einnahmenquellen	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Bruttogewinnspanne	Prozentsatz der Einnahmen, die nach Abzug der Kosten der verkauften Waren (COGS) zurückbleiben.	((Revenue - COGS) ÷ Einnahmen) × 100	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Nettogewinnspanne	Prozentsatz der Einnahmen, die nach allen Ausgaben, Steuern und Kosten zurückbleiben.	(Nettogewinn Φ Einkommen) × 100	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Betriebsgewinnspanne	Prozentsatz der Einnahmen, die nach den Betriebskosten zurückbleiben.	(Einkommen ÷ Einnahmen) × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Umsatzwachstumsrate	Steuersatz, zu dem die Einnahmen über einen bestimmten Zeitraum ansteigen.	((Vorläufige Einnahmen) × 100	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	EBITDA	Ergebnis vor Zinsen, Steuern, Abschreibungen und Abschreibungen.	Einnahmen - Ausgaben (ohne Zinsen, Steuern, Abschreibungen und Abschreibungen)	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Return on Sales (ROS)	Prozentsatz der Einnahmen, die in das operative Ergebnis umgerechnet werden.	Betriebsergebnis ÷ Umsatz × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Bruchpunkt	Die Einnahmen müssen alle Kosten decken und beginnen, Gewinn zu generieren.	Feste Kosten ÷ (Unit Preis - variable Kosten pro Einheit)	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Einnahmen je Beschäftigten	Durchschnittseinkommen je Beschäftigten.	Gesamtumsatz ÷ Gesamtbeschäftigung	Mittel	
+📈 Finanzen und Rechnungswesen Kennzahlen	Gewinn pro Kunde	Durchschnittliche Gewinne pro Kunde.	Gesamtgewinn ÷ Gesamtkunden	Mittel	
+📈 Finanzen und Rechnungswesen Kennzahlen	Kosten- und Kostenmanagement Kennzahlen				
+📈 Finanzen und Rechnungswesen Kennzahlen	Betriebskosten-Verhältnis (OER)	Prozentsatz der Einnahmen für die Betriebskosten.	(Operating Ausgaben ÷ Einnahmen) × 100	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Kosten der verkauften Waren (COGS)	Direkte Kosten für die Herstellung von Waren oder Dienstleistungen, die vom Unternehmen verkauft werden.	Summe der Direktproduktionskosten	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Betriebskosten insgesamt	Gesamtkosten, die bei laufenden Tagesgeschäften entstehen.	Summe aller Betriebskosten	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Haushaltsvariante	Differenz zwischen geplantem Budget und tatsächlichen Ausgaben.	(Budgeted Costs - Tatsächliche Kosten)	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Kosteneinsparungen erzielt	Gesamtersparnis durch Kostensenkungsinitiativen.	Erste Kosten - reduzierte Kosten	Mittel	
+📈 Finanzen und Rechnungswesen Kennzahlen	Kosten prozentualer Anteil	Prozentsatz der Gesamteinnahmen auf Gemeinkosten.	(Overhead Kosten ÷ Einnahmen) × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Lohn- und Gehaltsverhältnis	Prozentsatz der Einnahmen, die für die Lohnkosten ausgegeben werden.	(Gesamtkosten ÷ Umsatz) × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Kosten pro Einheit	Durchschnittliche Kosten für die Herstellung oder den Erwerb einer Einheit eines Produktes oder Dienstes.	Gesamtkosten ÷ Einheiten Produziert	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Variable Kostenrate	Prozentsatz der auf variable Kosten ausgegebenen Einnahmen.	(Variable Kosten ÷ Einnahmen) × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Feste Kostendeckungsquote	Messt die Fähigkeit des Unternehmens, feste Kosten mit Einnahmen zu decken.	Einnahmen ÷ Feste Kosten	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Liquiditäts- und Cashflow-Kennzahlen				
+📈 Finanzen und Rechnungswesen Kennzahlen	Aktuelles Verhältnis	Messt die Fähigkeit des Unternehmens, kurzfristige Verbindlichkeiten mit kurzfristigen Vermögenswerten zu zahlen.	Aktuelle Vermögenswerte ÷ Aktuelle Verbindlichkeiten	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Quick Ratio (Acid-Test Ratio)	Messt die Fähigkeit, kurzfristige Verpflichtungen zu zahlen, ohne sich auf Inventar verlassen.	(Current Assets - Inventory) ÷ Aktuelle Verbindlichkeiten	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Cash Conversion Cycle (CCC)	Zeit, die es braucht, um das Inventar in Cashflows aus dem Verkauf umzuwandeln.	Tage Inventory Outstanding + Days Sales Outstanding - Tage Payables Hervorragend	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Betriebsmittelfluss (OCF)	Barmittel aus regelmäßigen Geschäftsbetrieben.	Cashflow aus Operationen insgesamt	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Free Cash Flow (FCF)	Restbetrag nach den Kapitalaufwendungen.	Betriebsmittelfluss - Investitionsausgaben	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Cash Flow Covering Rat	Messt die Fähigkeit des Unternehmens, Verbindlichkeiten mit Cashflow aus Operationen abzudecken.	Betriebsmittelfluss ÷ Gesamtlöslichkeiten	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Cashflow zum Umsatz	Anteil der Einnahmen als Barmittel.	Betriebsmittelfluss ÷ Gesamtumsatz × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Erwerbskapitalquote	Messt Liquidität und betriebliche Effizienz.	(Current Assets - Aktuelle Verbindlichkeiten) ÷ Gesamtvermögen	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Volumenstrom	Vergleicht Gesamtschulden zum operativen Cashflow.	Gesamtverschuldung ÷ Operating Cash Flow	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Tage Bargeld auf der Hand	Messt, wie viele Tage das Unternehmen mit seinem verfügbaren Bargeld arbeiten kann.	(Cash ÷ Tägliche Betriebskosten)	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Forderungen & Bezahlbar Kennzahlen				
+📈 Finanzen und Rechnungswesen Kennzahlen	Days Sales Outstanding (DSO)	Durchschnittliche Anzahl der Tage es dauert, um die Zahlung nach einem Verkauf zu sammeln.	(Accounts Receivable ÷ Total Credit Sales) × Anzahl der Tage	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Konten Aktiver Umsatz Verhältnis	Maßnahmen, wie effizient Forderungen während eines Zeitraums erhoben werden.	Netto-Kreditverkauf ÷ Durchschnittliche Konten	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Durchschnittlicher Erfassungszeitraum	Durchschnittliche Zeit, um Forderungen zu sammeln.	365 ÷ Konten Forderung Umsatzverhältnis	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Schlechte Schuldenquote	Prozentsatz der Forderungen, die als schlechte Schulden abgeschrieben werden.	(Bad Debts ÷ Gesamtkonten Aktivierbar) × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Tage Verfügbares Outding (DIP)	Durchschnittliche Anzahl der Tage, die das Unternehmen benötigt, um seine Lieferanten zu bezahlen.	(Accounts Payable ÷ COGS) × Anzahl der Tage	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Konten Zahlbare Umsatzrate	Messt, wie schnell das Unternehmen seinen Lieferanten zahlt.	Gesamtzulieferer kauft ÷ Durchschnittskonten Bezahlbar	Hoch	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Durchschnittliche Zahlungsfrist	Durchschnittliche Zeit zur Abrechnung der zu zahlenden Konten.	365 ÷ Konten Zahlbare Umsatzrate	Mittel	
+📈 Finanzen und Rechnungswesen Kennzahlen	Cash Conversion-Efficiency (CCE)	Messt die Effizienz der Umwandlung von Verkäufen in Bargeld.	Betriebsmittelfluss ÷ Umsatz × 100	Mittel	Link
+📈 Finanzen und Rechnungswesen Kennzahlen	Kosten für die Auftragsverarbeitung	Durchschnittliche Kosten für die Abwicklung einer Rechnung.	Gesamtprozesskosten ÷ Gesamtrechnungen verarbeitet	Mittel	
+📈 Finanzen und Rechnungswesen Kennzahlen	Zahlungsfehlerquote	Prozentsatz der Fehler bei Zahlungen an Lieferanten.	(Zahlungsfehler ÷ Gesamtzahlungen) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Zeit zum Ausfüllen	Durchschnittliche Zeit, die benötigt wird, um einen Arbeitsplatz zu füllen.	Total Time to Fill All Roles ÷ Anzahl der Roles	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Zeit zum Verleihen	Durchschnittliche Zeit zwischen Bewerbung und Annahme des Angebots.	Gesamtzeit zu mieten ÷ Anzahl der Hires	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Kosten pro Miete	Durchschnittliche Kosten für die Anmietung eines Mitarbeiters.	Gesamtrekrutierungskosten ÷ Anzahl der Mieten	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Angebot Akzeptanzrate	Prozentsatz der von Bewerbern akzeptierten Stellenangebote.	(Akzeptierte Angebote ÷ Gesamt Angebote) × 100	Mittel	Link
+👥 Personalcontrolling-Kennzahlen	Sourcing Channel Effektivität	Verfolgen Sie, welche Kanäle die meisten Anmietungen generieren.	(Hires from Source ÷ Total Hires) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Mitarbeiter Umsatz Preis	Prozentsatz der Arbeitnehmer, die während eines bestimmten Zeitraums verlassen.	(Mitarbeiter, die links ÷ Durchschnittlicher Gesamtarbeiter) × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Freiwilliger Umsatz Preis	Prozentsatz der freiwillig verlassenen Mitarbeiter.	(Voluntary Leavers ÷ Total Employes) × 100	Hoch	
+👥 Personalcontrolling-Kennzahlen	Retentionsrate	Prozentsatz der Mitarbeiter, die über einen bestimmten Zeitraum bei dem Unternehmen bleiben.	((Gesamtarbeiter - Mitarbeiter, die links) ÷ Gesamtarbeiter) × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Interne Mietquote	Prozentsatz der Rollen, die von internen Kandidaten besetzt werden.	(Internal Hires ÷ Gesamt Hires) × 100	Mittel	Link
+👥 Personalcontrolling-Kennzahlen	Durchschnittliche Spannung	Durchschnittliche Dauer der Mitarbeiter bleiben bei der Firma.	Gesamtbelastung aller Arbeitnehmer ÷ Gesamtbeschäftigung	Mittel	Link
+👥 Personalcontrolling-Kennzahlen	Erstjährige Rücktrittsquote	Prozentsatz der Mitarbeiter, die innerhalb ihres ersten Jahres zurücktreten.	(Erste-Jahr-Rücktritte ÷ Neue Mieten insgesamt) × 100	Mittel	Link
+👥 Personalcontrolling-Kennzahlen	Vacance Rate	Prozentsatz der freien Positionen im Unternehmen.	Gesamtpositionen × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Neuer Umsatz	Prozentsatz der neuen Mieten, die innerhalb eines bestimmten Zeitraums (z.B. 6 Monate) abreisen.	(New Hire Leavers ÷ Total New Hires) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Mitarbeiter Engagement & Performance Kennzahlen				
+👥 Personalcontrolling-Kennzahlen	Mitarbeiterbindung Ergebnis	Maßnahmen insgesamt Mitarbeiterbeteiligung durch Erhebungen.	(Gesamt Engagement Score ÷ Total Responses) × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Net Promoter Score (NPS) für Mitarbeiter	Maßnahmen, wie wahrscheinlich Mitarbeiter die Organisation als Arbeitsplatz empfehlen.	% Promoter - % Detractors	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Mitarbeiter Zufriedenheitsergebnis (ESAT)	Messt die Zufriedenheit der Mitarbeiter durch Umfragen.	(Positive Reaktionen) × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Absenteism Rate	Prozentsatz der unbefristeten Abwesenheiten gegenüber den Gesamtarbeitstagen.	(Gesamt Unscheduled Absences ÷ Total Workdays) × 100	Mittel	Link
+👥 Personalcontrolling-Kennzahlen	Mitarbeiter Produktivität Preis	Maßnahmen, die pro Arbeitnehmer bezogen auf die Eingabe ausgegeben werden (Arbeitsstunden usw.).	Ausgabe ÷ Stunden	Hoch	
+👥 Personalcontrolling-Kennzahlen	Mitarbeiter Umsatz (Low Performers)	Prozentsatz der Mitarbeiter, die das Unternehmen verlassen.	(Low Performer Exits ÷ Mitarbeiter insgesamt) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Peer Recognition Rate	Prozentsatz der Mitarbeiter, die an Anerkennungsprogrammen teilnehmen.	(Erkannte Mitarbeiter ÷ Gesamtarbeiter) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Interne Promotion Rate	Prozentsatz der Förderungen, die an interne Mitarbeiter vergeben werden.	(Innenaktionen ÷ Gesamtaktionen) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Work-Life Balance Score	Messt die Wahrnehmung der Mitarbeiter über ihre Work-Life-Balance.	Erhebungsbasierte Metrik (1-5 Skala zum Beispiel)	Mittel	
+👥 Personalcontrolling-Kennzahlen	Ausbildung und Entwicklung Kennzahlen				
+👥 Personalcontrolling-Kennzahlen	Ausbildungsabschluss	Prozentsatz der Mitarbeiter, die zugewiesene Ausbildungsprogramme abgeschlossen haben.	(Komplettes Training ÷ Zugeteiltes Training) × 100	Hoch	
+👥 Personalcontrolling-Kennzahlen	Durchschnittliche Trainingsstunden pro Mitarbeiter	Durchschnittliche Anzahl der von den Arbeitnehmern über einen Zeitraum abgeschlossenen Ausbildungsstunden.	Gesamte Ausbildungszeiten ÷ Gesamte Mitarbeiter	Niedrig	
+👥 Personalcontrolling-Kennzahlen	Kosten pro Training	Durchschnittliche Kosten pro Stunde der Ausbildung.	Ausbildungskosten insgesamt	Mittel	
+👥 Personalcontrolling-Kennzahlen	Ausbildungsquote	Prozentsatz der Mitarbeiter, die an den geplanten Schulungen teilnehmen.	(Beschäftigte ÷ Mitarbeiter eingestellt) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	Interne Mobilität Preis	Prozentsatz der Mitarbeiter, die aufgrund der Ausbildung gefördert oder seitlich bewegt wurden.	(Internal Moves ÷ Mitarbeiter insgesamt) × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Zertifizierungssatz	Prozentsatz der Mitarbeiter, die nach dem Training Zertifizierungen erhalten.	(Mitarbeiter zertifiziert ÷ Mitarbeiter trainiert) × 100	Hoch	
+👥 Personalcontrolling-Kennzahlen	eLearning Nutzungsrate	Prozentsatz der Mitarbeiter, die in eLearning-Programmen tätig sind.	(eLearning Teilnehmer ÷ Mitarbeiter insgesamt) × 100	Mittel	
+👥 Personalcontrolling-Kennzahlen	HR Betriebseffizienzkennzahlen				
+👥 Personalcontrolling-Kennzahlen	Personalkosten je Beschäftigten	Durchschnittliche Kosten der HR-Operationen pro Mitarbeiter.	Gesamte Personalkosten ÷ Gesamte Mitarbeiter	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Zeit, Mitarbeiteranfragen zu lösen	Durchschnittliche Zeit dauert es HR, um Mitarbeiterbelange oder Anfragen zu lösen.	Total Time to Resolving Queries ÷ Total Queries	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Personal Budget Nutzung	Prozentsatz des Personalbudgets, der innerhalb eines bestimmten Zeitraums ausgegeben wird.	(HR) Expension (HR Budget) × 100	Hoch	
+👥 Personalcontrolling-Kennzahlen	Lohn- und Gehaltsempfänger	Prozentualer Anteil der ohne Fehler verarbeiteten Lohnrollen.	(Akcurate Payrolls ÷ Total Payrolls) × 100	Hoch	Link
+👥 Personalcontrolling-Kennzahlen	Abrufquote	Prozentsatz der Mitarbeiter, die freiwillig oder unfreiwillig ausscheiden.	(Arbeitnehmer ÷ Durchschnittliche Gesamtbeschäftigte) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Einnahmen insgesamt	Gesamtertrag aus Verkäufen innerhalb eines bestimmten Zeitraums.	Summe aller Umsatzerlöse	Hoch	Link
+💵 Verkaufskennzahlen	Bruttogewinnspanne	Prozentsatz der Einnahmen, die nach Abzug der Kosten der verkauften Waren (COGS) zurückbleiben.	((Revenue - COGS) ÷ Einnahmen) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Nettogewinnspanne	Prozentsatz der Einnahmen, die nach allen Ausgaben, Steuern und Kosten zurückbleiben.	(Nettogewinn Φ Einkommen) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Umsatzwachstumsrate	Rate, zu der der Umsatz über einen bestimmten Zeitraum steigt.	((Zurzeitige Einnahmen - Vorheriger Zeitraum Einnahmen) ÷ Vorheriger Zeitraum Einnahmen) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Durchschnittliche Umsatz pro Nutzer (ARPU)	Durchschnittliche Einnahmen pro Kunde über eine bestimmte Zeit.	Gesamtumsatz ÷ Gesamtkunden	Mittel	Link
+💵 Verkaufskennzahlen	Kundenlebenswert (CLV)	Gesamteinnahmen, die von einem Kunden über sein Leben erwartet werden.	Durchschnittlicher Kaufwert × Kauf Frequenz × Kundenlebensdauer	Hoch	Link
+💵 Verkaufskennzahlen	Verkauf durch Produkt oder Service	Umsatzaufschlüsselung nach einzelnen Produkten oder Dienstleistungen.	Bildmaterial von Verkaufsanalysen	Hoch	
+💵 Verkaufskennzahlen	Umsatzwachstumsrate	Messt die Steigerung oder Abnahme des Umsatzes im Laufe der Zeit.	((Verkaufszeitraum - Vorheriger Umsatz) ÷ Vorheriger Umsatz) × 100	Mittel	
+💵 Verkaufskennzahlen	Verkaufskosten	Gesamtkosten, die direkt mit dem Verkauf eines Produkts oder einer Dienstleistung verbunden sind.	Summe der Direktverkaufskosten	Mittel	Link
+💵 Verkaufskennzahlen	Umsatz Beitragsspanne	Die Gewinne, die nach variablen Kosten durch den Umsatz erzielt werden, werden subtrahiert.	Einnahmen × 100	Mittel	Link
+💵 Verkaufskennzahlen	Vertriebsteam Leistungskennzahlen				
+💵 Verkaufskennzahlen	Umsatz Zielerzielungsrate	Prozentsatz des Verkaufsziels, das durch das Team oder einzelne Vertreter erreicht wird.	(current Sales ÷ Sales Target) × 100	Hoch	
+💵 Verkaufskennzahlen	Gewinne	Prozentsatz der gewonnenen Angebote im Vergleich zu Gesamtchancen.	(Deals Won ÷ Gesamtchancen) × 100	Hoch	
+💵 Verkaufskennzahlen	Durchschnittliche Verkaufsmenge	Durchschnittliche Einnahmen pro abgeschlossenem Geschäft.	Gesamtumsatz ÷ Geschlossene Angebote insgesamt	Mittel	
+💵 Verkaufskennzahlen	Verkäufe pro Rep	Gesamtumsatz, der von jedem Verkaufsvertreter erzielt wird.	Umsatz Generiert ÷ Gesamtumsatz wiederholt	Hoch	
+💵 Verkaufskennzahlen	Umrechnungskurs für die Leitzinsen	Prozentsatz der Leads, die in Verkaufschancen umgewandelt wurden.	(Qualified Leads ÷ Total Leads) × 100	Mittel	Link
+💵 Verkaufskennzahlen	Umrechnungskurs Opportunity-to-Win	Prozentsatz der Chancen, die erfolgreich in Angebote umgewandelt wurden.	(Deals Won ÷ Gesamtchancen) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Durchschnittlicher Verkaufszyklus Länge	Durchschnittliche Zeit dauert es, einen Deal von Anfangskontakt zu schließen.	Alle Angebote zu schließen ÷ Geschlossene Angebote insgesamt	Mittel	Link
+💵 Verkaufskennzahlen	Call-to-Meeting Ratio	Prozentsatz der Verkaufsgespräche, die in planmäßigen Sitzungen resultieren.	(Meetings Scheduled ÷ Verkaufsgespräche gemacht) × 100	Mittel	
+💵 Verkaufskennzahlen	Kundenbeschaffungskosten (CAC) durch Rep	Durchschnittliche Kosten für den Erwerb eines Kunden, segmentiert von rep.	Gesamtverkauf & Marketing Verbringen Sie ÷ Kunden, die pro Rep erworben werden	Mittel	
+💵 Verkaufskennzahlen	Pipeline-Wert für Sales Rep	Gesamtwert der Angebote, die derzeit in der Pipeline für jeden Vertriebsreferent vorhanden sind.	Summe der Deal-Werte in Pipeline	Hoch	
+💵 Verkaufskennzahlen	Tätigkeit pro Rep	Gesamtzahl der abgeschlossenen Aktivitäten (Calls, E-Mails, Meetings, etc.) pro Rep.	Gesamtaktivitäten ÷ Anzahl der Wiederholungen	Mittel	
+💵 Verkaufskennzahlen	Lead Generation & Conversion Kennzahlen				
+💵 Verkaufskennzahlen	Anzahl der gewonnenen Leads	Gesamtzahl der während eines bestimmten Zeitraums erworbenen Leads.	Summe aller erfassten Leads	Hoch	
+💵 Verkaufskennzahlen	Umrechnungskurs	Prozentsatz der Leads, die in zahlende Kunden umgewandelt werden.	(Converted Leads ÷ Total Leads) × 100	Hoch	
+💵 Verkaufskennzahlen	Marketing Qualifizierte Leads (MQLs)	Anzahl der Leads, die für die Übergabe an das Vertriebsteam vorgesehen sind.	MQL insgesamt generiert	Hoch	Link
+💵 Verkaufskennzahlen	Verkauf Qualifizierte Leads (SQLs)	Anzahl der nach der Verkaufsqualifikation als verkaufsfertig zugelassenen Leads.	Total SQLs Generiert	Hoch	Link
+💵 Verkaufskennzahlen	Kosten pro Lead (CPL)	Durchschnittliche Kosten für die Erzeugung einer einzigen Leitung.	Gesamt Lead Generation Kosten ÷ Gesamt Leads	Hoch	
+💵 Verkaufskennzahlen	Lead Response Time	Durchschnittliche Zeit für den Verkauf, um auf eine Führung nach dem Erwerb zu reagieren.	Gesamte Antwortzeit ÷ Gesamte Leads	Mittel	
+💵 Verkaufskennzahlen	Umrechnungskurs der Webseite	Prozentsatz der Besucher der Website, die in Leads umwandeln.	(Website Leads ÷ Gesamtbesucher) × 100	Mittel	
+💵 Verkaufskennzahlen	Formular-Zulassungssatz	Prozentsatz der Besucher, die ein Lead-Capture-Formular ausfüllen.	(Formeinträge ÷ Gesamtbesucher) × 100	Mittel	Link
+💵 Verkaufskennzahlen	E-Mail-Bewertung	Prozentsatz der Nutzer, die sich für E-Mail-Kommunikation anmelden.	(Ins ÷ Gesamtbesucher) × 100	Mittel	Link
+💵 Verkaufskennzahlen	Umrechnungskurs für Lead Nurturing	Prozentsatz der geförderten Leads, die sich in Absatzmöglichkeiten umwandeln.	(Nurtured Leads Converted ÷ Total Nurtured Leads) × 100	Mittel	
+💵 Verkaufskennzahlen	Chancen-zu-Lead Ratio	Prozentsatz der Leads, die qualifizierte Verkaufsmöglichkeiten werden.	Gesamtleitungen × 100	Mittel	
+💵 Verkaufskennzahlen	Wachstumsrate der Pipeline	Prozentualer Anstieg des Gesamtwerts der Leads in der Vertriebspipeline.	(Zeitraum Pipeline-Wert - frühere Periode Pipeline-Wert) ÷ Vorheriger Zeitraum Pipeline-Wert) × 100	Mittel	
+💵 Verkaufskennzahlen	Kundenbeziehung Kennzahlen				
+💵 Verkaufskennzahlen	Kundenretention Rate	Prozentsatz der Kunden, die über einen bestimmten Zeitraum zurückgehalten werden.	((Endkunden - Neue Kunden) ÷ Start Kunden) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Kundenbetreuung	Prozentsatz der Kunden, die während eines bestimmten Zeitraums verloren gingen.	(Lost Customers ÷ Gesamtkunden) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Kundenzufriedenheits-Score (CSAT)	Messt Kundenzufriedenheit basierend auf Umfrage-Feedback.	(Positive Reaktionen) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Net Promoter Score (NPS)	Messt Kundenbindung und Wahrscheinlichkeit, die Marke zu empfehlen.	% Promoter - % Detractors	Hoch	Link
+💵 Verkaufskennzahlen	Umsatz im Upsell	Gesamteinnahmen aus dem Verkauf bestehender Kunden.	Summe der Upsell-Transaktionen Umsatz	Mittel	Link
+💵 Verkaufskennzahlen	Über uns	Gesamteinnahmen aus verkaufsübergreifenden Produkten oder Dienstleistungen.	Summe der Cross-Sell-Transaktionen Umsatz	Mittel	Link
+💵 Verkaufskennzahlen	Wiederholen Kaufpreis	Prozentsatz der Kunden, die mehr als einen Kauf tätigen.	(Repeat Kunden ÷ Gesamtkunden) × 100	Hoch	Link
+💵 Verkaufskennzahlen	Kundenlebenswert (CLV)	Gesamteinnahmen, die von einem Kunden über sein Leben erwartet werden.	Durchschnittlicher Kaufwert × Kauf Frequenz × Kundenlebensdauer	Hoch	Link
+💵 Verkaufskennzahlen	Kundenbetreuung (CES)	Messt die Leichtigkeit, mit der Kunden mit Ihrer Marke interagieren.	Umfrage Metrik basierend auf Kundenfeedback	Mittel	Link
+💵 Verkaufskennzahlen	Kundenvertretung Rate	Prozentsatz der Kunden, die die Marke aktiv fördern.	(Anmelder ÷ Gesamtkunden) × 100	Mittel	Link
+Digital Marketing Kennzahlen	Kosten pro Mille (CPM)	Kosten für 1.000 Eindrücke.	(Gesamt Ad Spend ÷ Total Impressions) × 1.000	Hoch	Link
+Digital Marketing Kennzahlen	Click-Through Rate (CTR)	Prozentsatz der Eindrücke, die zu Klicks führte.	(Klicks ÷ Impressionen) × 100	Hoch	Link
+Digital Marketing Kennzahlen	Kosten pro Klick (CPC)	Durchschnittliche Kosten eines einzigen Klicks.	Total Ad Spend ÷ Total Clicks	Hoch	Link
+Digital Marketing Kennzahlen	Kosten pro Aktion (CPA)	Kosten für eine bestimmte Aktion (Kauf, Anmeldung, etc.).	Insgesamt Ad-Spend ÷ Gesamtumrechnungen	Hoch	Link
+Digital Marketing Kennzahlen	Zurück	Gesamtzahl der einzigartigen Benutzer, die Ihre Anzeige sah.	Bildmaterial von Anzeigenplattformen	Mittel	
+Digital Marketing Kennzahlen	Häufigkeit	Durchschnittliche Anzahl der Male, die ein Benutzer Ihre Anzeige sieht.	Total Impressionen ÷ Unique Reach	Mittel	
+Digital Marketing Kennzahlen	View-Through Rate (VTR)	Prozentsatz der Benutzer, die Ihre Videoanzeige zum Abschluss angesehen haben.	(Videoauszüge Φ Gesamteindrucke) × 100	Mittel	
+Digital Marketing Kennzahlen	Return on Ad Spend (ROAS)	Einnahmen pro ausgegebenen Dollar für Anzeigen.	Einnahmen ÷ Ad Spend	Hoch	Link
+Digital Marketing Kennzahlen	Impressionen teilen	Prozentsatz der förderfähigen Eindrücke, die Sie gefangen genommen haben.	(Prints ÷ Eligible Impressions) × 100	Mittel	
+Digital Marketing Kennzahlen	Video anzeigen Rate	Prozentsatz der Video-Anzeige-Impressionen, die zu einer Ansicht führen.	(Videoansichten ÷ Impressionen) × 100	Mittel	
+Digital Marketing Kennzahlen	Ad Engagement Rate	Prozentsatz der Interaktionen (Gefällt mir, Aktien, Klicks) mit einer Anzeige.	(Engagements ÷ Gesamteindrucke) × 100	Mittel	
+Digital Marketing Kennzahlen	Kosten pro Lead (CPL)	Kosten für die Erzeugung einer einzigen Leitung.	Insgesamt Ad Spend ÷ Gesamt Leads	Hoch	
+Digital Marketing Kennzahlen	Umrechnungskurs	Prozentsatz der Anzeigenklicks, die zu einer Konvertierung führen.	(Konversionen ÷ Klicks) × 100	Hoch	Link
+Digital Marketing Kennzahlen	Bounce Rate	Prozentsatz der Benutzer, die auf die Anzeige geklickt haben, aber ohne zu interagieren.	(Single Page Sessions ÷ Total Sessions) × 100	Mittel	
+Digital Marketing Kennzahlen	Ad Placement Performance	Bewertet die Effektivität verschiedener Anzeigenplatzierungen (desktop vs. mobile).	Bildmaterial von Anzeigenplattformen	Mittel	
+Digital Marketing Kennzahlen	Thumb Stop Rate	Prozentsatz der Benutzer, die das Scrollen stoppen, wenn Sie Ihre Anzeige treffen.	(Stops ÷ Gesamteindrucke) × 100	Hoch	Link
+Digital Marketing Kennzahlen	KPIs Marketing Email				
+Digital Marketing Kennzahlen	Open Rate	Prozentsatz der E-Mail-Empfänger, die Ihre E-Mail geöffnet haben.	(Emails Geöffnet ÷ E-Mails Liefert) × 100	Hoch	Link
+Digital Marketing Kennzahlen	Click-Through Rate (CTR)	Prozentsatz der E-Mail-Empfänger, die auf Links in der E-Mail geklickt haben.	(Gesamt Clicks ÷ E-Mails Liefert) × 100	Hoch	
+Digital Marketing Kennzahlen	Click-to-Open Rate (CTOR)	Prozentsatz der Empfänger, die nach dem Öffnen der E-Mail auf Links geklickt haben.	(Klicks ÷ Öffnet) × 100	Mittel	Link
+Digital Marketing Kennzahlen	Umrechnungskurs	Prozentsatz der E-Mail-Empfänger, die die gewünschte Aktion abgeschlossen haben.	(Conversions ÷ E-Mails Liefert) × 100	Hoch	
+Digital Marketing Kennzahlen	Bounce Rate	Prozentsatz der nicht an die Empfänger übermittelten E-Mails.	(Bounced Emails ÷ Emails Sent) × 100	Mittel	Link
+Digital Marketing Kennzahlen	Abonnieren Rate	Prozentsatz der Empfänger, die von Ihrer Liste abgemeldet wurden.	Prozentsatz der Empfänger, die von Ihrer Liste abgemeldet wurden.	Hoch	Link
+Digital Marketing Kennzahlen	Spam Beschwerderate	Prozentsatz der Empfänger, die Ihre E-Mail als Spam markierten.	(Spam Beschwerden ÷ E-Mails Liefert) × 100	Mittel	
+Digital Marketing Kennzahlen	Tabelle Veränderungsrate	Rate, zu der Ihre E-Mail-Liste wächst.	((Neue Abonnenten - Abonnenten) ÷ Total Abonnenten) × 100	Hoch	
+Digital Marketing Kennzahlen	Vorwärts-/Anteilquote	Prozentsatz der Empfänger, die Ihre E-Mail weitergeleitet oder geteilt.	(Formen/Forwards ÷ E-Mails Lieferbar) × 100	Mittel	
+Digital Marketing Kennzahlen	Email Revenue zum Abonnenten	Durchschnittliche Einnahmen pro E-Mail-Teilnehmer.	Gesamte Email Einnahmen ÷ Gesamte Abonnenten	Hoch	
+Digital Marketing Kennzahlen	Cart Abandonment Umrechnung von Dateien	Prozentsatz der Empfänger, die die Einkäufe nach Erhalt der Warenkorb-Abgabe-E-Mails abgeschlossen haben.	(Purchases from Cart Emails ÷ Cart Emails Lieferbar) × 100	Hoch	
+Digital Marketing Kennzahlen	Wiedereinziehung Preis	Prozentsatz der inaktiven Nutzer, die von einer Kampagne wieder eingenommen werden.	(Re-Engaged Users ÷ Total Inactive Users) × 100	Mittel	
+Digital Marketing Kennzahlen	Kennzahlen				
+Digital Marketing Kennzahlen	Zurück	Anzahl der einzigartigen Benutzer, die Ihren Beitrag sahen.	Zur Verfügung gestellt von Plattform-Analyse-Tools	Hoch	
+Digital Marketing Kennzahlen	Impressionen	Gesamtzahl Ihrer Inhalte wurde angezeigt.	Zur Verfügung gestellt von Plattform-Analyse-Tools	Hoch	
+Digital Marketing Kennzahlen	Engagement Rate von Reach	Prozentsatz der Nutzer, die mit Ihrem Beitrag im Vergleich zu Reichweite interagierten.	(Gesamt Engagements ÷ Total Reach) × 100	Hoch	
+Digital Marketing Kennzahlen	Engagement Rate von Impressionen	Prozentsatz der Interaktionen aus Gesamteindrücken.	(Gesamte Engagements ÷ Gesamte Impressionen) × 100	Mittel	Link
+Digital Marketing Kennzahlen	Wachstumsrate	Steigerungsrate der Follower über einen bestimmten Zeitraum.	(New Followers ÷ Total Follower) × 100	Hoch	
+Digital Marketing Kennzahlen	Nach Häufigkeit	Anzahl der über einen bestimmten Zeitraum veröffentlichten Beiträge.	Gesamtposten ÷ Zeitperiode	Mittel	
+Digital Marketing Kennzahlen	Aktienkurs	Prozentsatz der Personen, die Ihre Inhalte geteilt haben.	(Gesamtanteile ÷ Gesamteindrucke) × 100	Mittel	
+Digital Marketing Kennzahlen	Videoansichten	Anzahl der Zeiten wurde ein Video beobachtet.	Bildmaterial von Plattformanalysen	Mittel	
+Digital Marketing Kennzahlen	Durchschnittliche Videoansicht Dauer	Durchschnittliche Zeit Benutzer verbrachten Ihre Videos zu sehen.	Total Watch Time ÷ Total Video Ansichten	Mittel	
+Digital Marketing Kennzahlen	Click-Through Rate (CTR)	Prozentsatz der Benutzer, die auf den Link Ihres Beitrags geklickt haben.	(Gesamt Clicks ÷ Total Impressions) × 100	Mittel	
+Digital Marketing Kennzahlen	Kommentare per Post	Durchschnittliche Anzahl der Kommentare pro Post.	Posts insgesamt	Mittel	
+Digital Marketing Kennzahlen	Speicher/Buchzeichen	Anzahl der Nutzer, die Ihre Inhalte gespeichert oder mit Lesezeichen versehen haben.	Bildmaterial von Plattformanalysen	Mittel	
+Digital Marketing Kennzahlen	Anmerkungen	Anzahl der Zeiten Ihre Marke ist auf Social Media verschlagwortet oder erwähnt.	Zur Verfügung gestellt von Social Hörtools	Mittel	
+Digital Marketing Kennzahlen	Profil Klicks	Anzahl der Nutzer, die Ihr Profil von Ihrem Inhalt besucht haben.	Bildmaterial von Plattformanalysen	Mittel	
+Digital Marketing Kennzahlen	Online-Verleih	Aufschlüsselung von Engagement-Typen (Liegen, Kommentare, Aktien).	Prozentsätze jeder Eingriffsart	Niedrig	
+Digital Marketing Kennzahlen	SEO (Search Engine Optimization) Kennzahlen				
+Digital Marketing Kennzahlen	Verkehr	Gesamtzahl der Besucher, die von organischen Suchergebnissen auf Ihre Website kommen.	Bildmaterial von Tools wie Google Analytics	Hoch	
+Digital Marketing Kennzahlen	Schlüsselwort-Rankings	Positionen von gezielten Keywords in Suchmaschinen-Ergebnisseiten (SERPs).	Mit Werkzeugen wie SEMrush oder Ahrefs verfolgt	Hoch	
+Digital Marketing Kennzahlen	Click-Through Rate (CTR)	Prozentsatz der Eindrücke, die zu Klicks für organische Ergebnisse führte.	(Organic Clicks ÷ Organic Impressions) × 100	Hoch	
+Digital Marketing Kennzahlen	Bounce Rate	Prozentsatz der Besucher, die nach der Besichtigung nur eine Seite verlassen.	(Single Page Sessions ÷ Total Sessions) × 100	Hoch	
+Digital Marketing Kennzahlen	Bakklinks	Gesamtzahl der externen Links, die auf Ihre Website zeigen.	Mit Werkzeugen wie Ahrefs oder SEMrush verfolgt	Hoch	
+Digital Marketing Kennzahlen	Domains weiterführen	Gesamtzahl der einzigartigen Domains, die auf Ihre Website verlinken.	Mit Werkzeugen wie Ahrefs verfolgt	Mittel	
+Digital Marketing Kennzahlen	Umrechnungspreis für organische Stoffe	Prozentsatz der organischen Besucher, die eine gewünschte Aktion absolvieren (z.B. Kauf, Anmeldung).	(Organische Umrechnungen ÷ Organic Visitors) × 100	Hoch	
+Digital Marketing Kennzahlen	Durchschnittliche Zeit auf Seite	Durchschnittliche Dauer Besucher verbringen auf einer einzigen Seite.	Gesamtzeit auf Seite ÷ Gesamtseitenansichten	Hoch	
+Digital Marketing Kennzahlen	Seiten pro Sitzung	Durchschnittliche Anzahl der Seiten, die ein Benutzer pro Sitzung besucht.	Gesamtseitenansichten ÷ Gesamtsitzungen	Mittel	Link
+Digital Marketing Kennzahlen	Site Load Time	Durchschnittliche Zeit es braucht, um Ihre Website zu laden.	Gemessen mit Tools wie Google PageSpeed Insights	Mittel	
+Digital Marketing Kennzahlen	Individuelle Seiten	Gesamtzahl der von Suchmaschinen indexierten Webseiten.	Gemessen mit Google Search Console	Niedrig	
+Digital Marketing Kennzahlen	Bio Klicks	Gesamtzahl der Klicks aus organischen Suchergebnissen.	Bildmaterial von Google Search Console	Hoch	
+Digital Marketing Kennzahlen	Bio-Impressionen	Gesamtzahl der Zeiten Ihre Website erschien in organischen Suchergebnissen.	Bildmaterial von Google Search Console	Hoch	
+Digital Marketing Kennzahlen	Top Landing Pages	Die meisten besuchten Seiten durch organische Suche.	Bildmaterial von Tools wie Google Analytics	Hoch	
+🚚 Lieferkette Kennzahlen	Kosteneinsparungen	Gesamtersparnis durch Initiativen zur Senkung der Auftragskosten.	(Basiskosten - Tatsächliche Kosten) ÷ Baseline Kosten × 100	Hoch	
+🚚 Lieferkette Kennzahlen	Bestellen Zykluszeit	Durchschnittliche Zeit, die es braucht, um einen Kaufauftrag zu erstellen, zu genehmigen und zu bearbeiten.	Gesamtzykluszeit ÷ Anzahl der Bestellungen	Mittel	Link
+🚚 Lieferkette Kennzahlen	Lieferzeit für Lieferanten	Durchschnittliche Zeit von Lieferanten zur Erfüllung von Aufträgen.	Insgesamt Lieferant Lead Time ÷ Anzahl der Bestellungen	Hoch	Link
+🚚 Lieferkette Kennzahlen	Lieferpreis des Lieferanten	Anteil der von Lieferanten gelieferten Bestellungen am oder vor dem vereinbarten Datum.	(Überstundenlieferungen ÷ Gesamtlieferungen) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Kosten pro Bestellung	Durchschnittliche Kosten für die Abwicklung eines Kaufauftrags.	Gesamtvergabekosten ÷ Anzahl der Bestellungen	Mittel	
+🚚 Lieferkette Kennzahlen	Hersteller Defect Rate	Prozentsatz der Waren von Lieferanten, die defekt sind.	(Defektive Goods ÷ Gesamtgut erhalten) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Spend Under Management (SUM)	Prozentsatz der gesamten organisatorischen Ausgaben, die durch Beschaffung aktiv verwaltet werden.	(Verwaltete Ausgaben ÷ Gesamtausgaben) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Hersteller Performance Score	Composite-Score basierend auf Lieferantenqualität, Lieferung und Reaktionsfähigkeit.	Gewichtete Bewertung von Lieferantenbewertungskriterien	Hoch	
+🚚 Lieferkette Kennzahlen	Maverick Spende Rate	Prozentsatz der außerhalb der genehmigten Beschaffungsprozesse getätigten Einkäufe.	(Maverick Spend ÷ Total Spend) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Beschaffung ROI	Kapitalrendite für die Beschaffungstätigkeiten.	(Versicherungskosteneinsparungen - Gesamtvergabekosten) ÷ Gesamtvergabekosten × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Inventarmanagement Kennzahlen				
+🚚 Lieferkette Kennzahlen	Inventarwechsel	Maßnahmen, wie oft Inventar verkauft und in einem bestimmten Zeitraum ersetzt wird.	Kosten der verkauften Güter ÷ Durchschnittliche Bestandsaufnahme	Hoch	Link
+🚚 Lieferkette Kennzahlen	Tage Inventory Outstanding (DIO)	Die durchschnittliche Anzahl der Tage wird vor dem Verkauf gehalten.	(Altersinventar ÷ Kosten der verkauften Waren) × 365	Hoch	Link
+🚚 Lieferkette Kennzahlen	Inventargenauigkeitsrate	Prozentsatz der Bestandsaufnahmen, die dem tatsächlichen physischen Bestand entsprechen.	(Accurate Stock Records ÷ Total Stock Items) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Aktienkurs	Prozentsatz der Lagerbestände, die bei Bedarf nicht auf Lager waren.	(Stockouts ÷ Total Inventory Items) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Transportkosten der Lagerstätte	Gesamtkosten der Bestandsaufnahme, einschließlich Lagerung, Versicherung und Abschreibungen.	Gesamter Lagerkosten ÷ Durchschnittlicher Lagerwert × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Bestellen Sie die Füllrate	Prozentsatz der Kundenaufträge, die vollständig aus dem verfügbaren Bestand erfüllt sind.	(Aufträge vollständig ÷ Gesamtaufträge) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Sicherheitsstufen	Mindestmenge an Lagerbestand zur Vermeidung von Lagerbeständen.	Berechnet basierend auf Nachfragevariabilität und Lieferzeit	Mittel	Link
+🚚 Lieferkette Kennzahlen	Tote Lager Prozentsatz	Prozentsatz der Lagerbestände, die nicht über einen bestimmten Zeitraum verkauft oder verwendet wurden.	(Dead Stock ÷ Total Inventory) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Zurückbestellung	Prozentsatz der aufgrund unzureichender Lagerbestände verzögerten Bestellungen.	(Backordered Orders \	Mittel	Link
+🚚 Lieferkette Kennzahlen	Inventar Shrinkage	Prozentsatz des durch Diebstahl, Schaden oder Verwaltungsfehler verlorenen Inventars.	(Ergebnisverluste ÷ Gesamter Lagerbestand) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Logistik und Transport Kennzahlen				
+🚚 Lieferkette Kennzahlen	On-Time Lieferrate	Prozentsatz der Lieferungen an oder vor der geplanten Zeit.	(Überstundenlieferungen ÷ Gesamtlieferungen) × 100	Hoch	
+🚚 Lieferkette Kennzahlen	Durchschnittliche Lieferzeit	Durchschnittliche Zeit für die Lieferung von Waren an Kunden oder Ziele.	Lieferfrist insgesamt ÷ Lieferungen insgesamt	Hoch	
+🚚 Lieferkette Kennzahlen	Transportkosten pro Einheit	Durchschnittliche Kosten für den Transport einer Produkteinheit.	Transportkosten insgesamt ÷ Einheiten Transport	Hoch	
+🚚 Lieferkette Kennzahlen	Frachtkosten prozentual	Prozentsatz der Einnahmen für Fracht und Transport.	(Freight Costs ÷ Gesamtumsatz) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	Ladekapazität Nutzungsrate	Prozentsatz der pro Sendung genutzten Transportkapazität.	(Aktuelle Belastung ÷ Gesamtlastkapazität) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Versand Schadensersatz	Prozentsatz der während des Transports beschädigten Sendungen.	(Damaged Shipments ÷ Total Ships) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	Backend Lieferzeit	Durchschnittliche Zeit für die Lieferung von Backcard-Waren.	Backend Lieferzeit	Mittel	
+🚚 Lieferkette Kennzahlen	Order Fulfillment Cycle Time	Durchschnittliche Zeit für Prozess, Schiff und Lieferung einer Bestellung.	Order Delivery Time - Order Placement Time	Hoch	Link
+🚚 Lieferkette Kennzahlen	Liefergenauigkeit Rate	Prozentsatz der Lieferungen an den richtigen Ort beim ersten Versuch.	(Akkurate Lieferungen ÷ Gesamtlieferungen) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	Rückgabequote	Prozentsatz der zurückgegebenen Waren aufgrund von Lieferfehlern oder Mängeln.	(Returned Deliveries ÷ Gesamtlieferungen) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	Produktion und Effizienz Kennzahlen				
+🚚 Lieferkette Kennzahlen	Produktionszykluszeit	Durchschnittliche Zeit für die Herstellung einer einzelnen Produkteinheit.	Gesamtproduktionszeit ÷ Gesamteinheiten Produziert	Hoch	Link
+🚚 Lieferkette Kennzahlen	Kapazitätsauslastung Preis	Prozentsatz der verwendeten Produktionskapazitäten.	(Aktuelle Ausgabe › Maximale mögliche Ausgabe) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Gesamtwirkung der Ausrüstung (OEE)	Maßnahmen, wie effektiv Produktionsanlagen genutzt werden.	Verfügbarkeit × Leistung × Qualität (ausgedrückt in Prozent)	Hoch	
+🚚 Lieferkette Kennzahlen	Ausfallquote	Prozent der Produktionszeit, die durch Geräte- oder Prozessausfälle verloren geht.	(Downtime ÷ Scheduled Production Time) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Rendite	Prozentsatz der Produkte, die Qualitätsstandards ohne Nacharbeit erfüllen.	(Good Units Produziert ÷ Gesamteinheiten Produziert) × 100	Hoch	Link
+🚚 Lieferkette Kennzahlen	Schrottrate	Der Anteil der Rohstoffe wurde während der Produktion verschwendet.	(Scrapped Materials ÷ Total Materials Used) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	First Pass Yield (FPY)	Prozentsatz der Produkte, die die Qualitätskontrolle beim ersten Versuch durchlaufen.	(Units Passed First Attempt ÷ Total Units Produziert) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	Bestellen Sie Lead Time	Durchschnittliche Zeit vom Auftragsplatz bis zur Fertigstellung.	Gesamtauftrag Vorlaufzeit ÷ Anzahl der Bestellungen	Mittel	
+🚚 Lieferkette Kennzahlen	Energieverbrauch pro Stück Produziert	Durchschnittlicher Energieverbrauch je hergestellte Produkteinheit.	Gesamtenergie verbraucht ÷ Gesamteinheiten produziert	Mittel	
+🚚 Lieferkette Kennzahlen	Arbeitsproduktivität	Durchschnittliche Leistung pro Arbeitsstunde produziert.	Gesamtausgabe ÷ Gesamtarbeitsstunden	Mittel	Link
+🚚 Lieferkette Kennzahlen	Kundenbefüllung Kennzahlen				
+🚚 Lieferkette Kennzahlen	Perfekte Bestellrate	Prozentsatz der ohne Probleme gelieferten Bestellungen (z.B. späte Lieferung, Beschädigung, fehlerhafte Gegenstände).	(Perfect Orders ÷ Total Orders) × 100	Hoch	
+🚚 Lieferkette Kennzahlen	Order Fulfillment Time	Durchschnittliche Zeit zur Bearbeitung und Lieferung von Kundenaufträgen.	Fulfillment insgesamt Zeit ÷ Anzahl der Bestellungen	Hoch	Link
+🚚 Lieferkette Kennzahlen	Bestellgenauigkeit Rate	Prozentsatz der Lieferungen mit korrekten Stückzahlen und Stückzahlen.	(Bestellungsbestellungen ÷ Gesamtbestellungen) × 100	Hoch	
+🚚 Lieferkette Kennzahlen	Kundenzufriedenheits-Score (CSAT)	Messt die Kundenzufriedenheit mit dem Auftragserfüllungsprozess.	(Positive Reaktionen) × 100	Mittel	Link
+🚚 Lieferkette Kennzahlen	On-Time Lieferrate	Prozentsatz der an oder vor dem voraussichtlichen Liefertermin gelieferten Bestellungen.	(Überstundenlieferungen ÷ Gesamtlieferungen) × 100	Hoch	
+🚚 Lieferkette Kennzahlen	Zurückbestellung	Prozentsatz der aufgrund unzureichender Bestandsaufnahme verzögerten Bestellungen.	(Backordered Orders \	Mittel	
+🚚 Lieferkette Kennzahlen	Zurück zur Übersicht	Prozentsatz der von den Kunden zurückgegebenen gelieferten Waren.	(Returned Orders) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	Nachfüllkosten für Bestellung	Durchschnittliche Kosten für die Bearbeitung und Lieferung einer Bestellung.	Fulfillment insgesamt Kosten ÷ Anzahl der Bestellungen	Mittel	Link
+🚚 Lieferkette Kennzahlen	Lieferung Zufriedenheit Preis	Prozent der Kunden zufrieden mit der Liefererfahrung.	(Verkaufslieferungen ÷ Gesamtlieferungen) × 100	Mittel	
+🚚 Lieferkette Kennzahlen	Zykluszeit bestellen	Gesamtzeit vom Kundenauftrag bis zur Lieferung.	Bestell- und Lieferfrist insgesamt ÷ Anzahl der Bestellungen	Hoch	Link
+Projektleitung Kennzahlen	On-Time-Kompensationsrate	Prozentsatz der innerhalb des vorgesehenen Zeitrahmens abgeschlossenen Projekte oder Aufgaben.	(Projekte abgeschlossen auf Zeit ÷ Gesamtprojekte) × 100	Hoch	
+Projektleitung Kennzahlen	Milestone Performance Rate	Prozentualer Anteil der an oder vor der Frist erreichten Projektziele.	(Achieved Meilensteine ÷ Gesamte Meilensteine) × 100	Hoch	
+Projektleitung Kennzahlen	Anzahl der überfälligen Aufgaben	Gesamtzahl der Aufgaben, die nicht durch ihre zugewiesenen Fristen abgeschlossen sind.	Summe der überfälligen Aufgaben	Hoch	
+Projektleitung Kennzahlen	Anwendungsbereich	Prozentsatz der Projekte, die bei der Ausführung Änderungen der Umfange erfahren.	(Projekte mit Scope Changes ÷ Gesamtprojekte) × 100	Mittel	
+Projektleitung Kennzahlen	Durchschnittliche Projektlaufzeit	Durchschnittliche Zeit, um ein Projekt von der Einleitung bis zum Abschluss zu vervollständigen.	Gesamtzeit für alle Projekte ÷ Anzahl der Projekte	Mittel	
+Projektleitung Kennzahlen	Aufgabenabwicklungsrate	Prozentsatz der Aufgaben, die im Zusammenhang mit den Gesamtaufgaben eines Projekts abgeschlossen wurden.	(Vereinigte Aufgaben ÷ Gesamtaufgaben) × 100	Hoch	
+Projektleitung Kennzahlen	Fahrplanvariante	Differenz zwischen dem geplanten Zeitplan und dem tatsächlichen Zeitplan.	(geplante Dauer - tatsächliche Dauer) ÷ Geplante Dauer × 100	Hoch	
+Projektleitung Kennzahlen	Geplant vs. Tatsächlicher Fortschritt	Vergleich des geplanten Fortschrittsprozentsatzes mit dem tatsächlichen Fortschrittsprozentsatz zu einem bestimmten Zeitpunkt.	(Geplante Fortschritte) × 100	Mittel	Link
+Projektleitung Kennzahlen	Projekt Erfolgsquote	Prozentsatz der Projekte, die erfolgreich durchgeführt werden, Umfang, Zeit und Budget.	(Erfolgreiche Projekte ÷ Gesamtprojekte) × 100	Hoch	
+Projektleitung Kennzahlen	Ressourcennutzungsrate	Prozentsatz der Ressourcen, die während der Projektlieferung effektiv genutzt werden.	(Jährliche Ressourcenzeiten ÷ Verfügbare Ressourcenzeiten) × 100	Mittel	Link
+Projektleitung Kennzahlen	Haushalts- und Kostenmanagement Kennzahlen				
+Projektleitung Kennzahlen	Haushaltsvariante	Messt den Unterschied zwischen dem geplanten Budget und den tatsächlichen Projektkosten.	(Geplanter Haushalt - Tatsächliche Kosten) ÷ Geplanter Haushalt × 100	Hoch	Link
+Projektleitung Kennzahlen	Kostenleistungsindex (CPI)	Gibt Kosteneffizienz und Finanzleistung an.	Gesteigerter Wert ÷ Tatsächliche Kosten	Hoch	Link
+Projektleitung Kennzahlen	Gesteigerter Wert (EV)	Stellt den Wert der geleisteten Arbeit in Bezug auf den geplanten Zeitplan und die Kosten dar.	(Jährliche Fortschritte × Geplanter Haushalt)	Hoch	Link
+Projektleitung Kennzahlen	Tatsächliche Kosten (AC)	Gesamtkosten für das Projekt bisher.	Summe aller tatsächlichen Projektkosten	Hoch	Link
+Projektleitung Kennzahlen	Schätzung zum Abschluss (ETC)	Schätzung der Restkosten, die für die Projektabwicklung erforderlich sind.	(Geplanter Haushalt - EV)	Mittel	
+Projektleitung Kennzahlen	To-Complete Performance Index (TCPI)	Prognostiziert die Kosteneffizienz, die erforderlich ist, um das Projekt innerhalb des Budgets abzuschließen.	(geplanter Haushalt - EV) ÷ (geplanter Haushalt - Tatsächliche Kosten)	Mittel	Link
+Projektleitung Kennzahlen	Kostenvarianz (CV)	Messt die Differenz zwischen dem verdienten Wert und den tatsächlichen Kosten.	EV - Tatsächliche Kosten	Hoch	Link
+Projektleitung Kennzahlen	Kostenüberschreitung Prozentsatz	Prozentsatz, um den die tatsächlichen Kosten den ursprünglichen Haushaltsplan überschreiten.	(Aktuelle Kosten - Planiertes Budget) ÷ Planiertes Budget × 100	Mittel	Link
+Projektleitung Kennzahlen	Kosten pro Lieferbar	Durchschnittliche Kosten pro Liefer- oder Arbeitseinheit abgeschlossen.	Gesamtkosten	Mittel	
+Projektleitung Kennzahlen	Budget Burn Rate	Rate, zu der Projektmittel im Laufe der Zeit ausgegeben werden.	(Gesamtzeit abnehmen)	Mittel	Link
+Projektleitung Kennzahlen	Team Produktivität und Effizienzkennzahlen				
+Projektleitung Kennzahlen	Aufgabenabwicklungsrate	Prozentsatz der Aufgaben, die im Verhältnis zu den insgesamt zugewiesenen Aufgaben erledigt sind.	(Vereinigte Aufgaben ÷ Gesamtaufgaben) × 100	Hoch	
+Projektleitung Kennzahlen	Ressourcennutzungsrate	Prozentsatz der verfügbaren Zeit der Teammitglieder für produktive Aufgaben.	(Jährliche Stunden Arbeit ÷ Verfügbare Stunden) × 100	Hoch	
+Projektleitung Kennzahlen	Durchschnittliche Aufgabendauer	Durchschnittliche Zeit, um eine Aufgabe abzuschließen.	Total Time Spent on Tasks ÷ Anzahl der Aufgaben	Mittel	
+Projektleitung Kennzahlen	Team Productivity Index	Zusammengesetztes Maß an Teamleistung im Verhältnis zu Aufwand und eingesetzten Ressourcen.	Ausgangswert Φ Ressourceneingang	Mittel	Link
+Projektleitung Kennzahlen	Mitarbeiterbindung Ergebnis	Messt Team Engagement und Zufriedenheit mit dem Projekt.	Abgeleitet von Engagement-Umfragen und Feedback	Mittel	
+Projektleitung Kennzahlen	Billable Utilities Rate	Prozentsatz der Teamstunden, die für die abrechnungsfähige Projektarbeit ausgegeben werden.	(Billable Hours ÷ Total Hours Worked) × 100	Mittel	Link
+Projektleitung Kennzahlen	Überstunden	Prozentsatz der über die Standardarbeitszeit geleisteten Arbeitsstunden.	(Überstunden ÷ Gesamtstunden Arbeitet) × 100	Mittel	Link
+Projektleitung Kennzahlen	Collaboration Effektiveness Score	Messt die Wirksamkeit von Teamarbeit und Zusammenarbeit.	Umfrage Metrik basierend auf Team-Feedback	Mittel	
+Projektleitung Kennzahlen	Absenteism Rate	Prozentsatz der geplanten Arbeitszeiten, die von Teammitgliedern verpasst werden.	(Missed Work Hours ÷ Scheduled Work Hours) × 100	Mittel	Link
+Projektleitung Kennzahlen	Wissensvermittlung Index	Messt, wie effektiv Teammitglieder Wissen und Erkenntnisse teilen.	Abgeleitet von Umfrageergebnissen oder beobachteten Aktivitäten	Niedrig	
+🛠️ Produktentwicklung Kennzahlen	Durchschnittliche Zeit-zu-Market	Durchschnittliche Zeit, um ein Produkt von Konzept zu Markt bringen.	Gesamtentwicklung Zeit ÷ Anzahl der Produkte	Hoch	Link
+🛠️ Produktentwicklung Kennzahlen	Entwicklungszykluszeit	Zeit genommen, um die Entwicklungsphase eines Produktes abzuschließen.	Enddatum - Startdatum für Entwicklungsphase	Hoch	Link
+🛠️ Produktentwicklung Kennzahlen	Prozentsatz der On-Time-Einführungen	Prozentsatz der am oder vor dem geplanten Starttermin gestarteten Produkte.	(Überstunden startet ÷ Gesamteinführungen) × 100	Hoch	
+🛠️ Produktentwicklung Kennzahlen	Iteration Time pro Produkt	Durchschnittliche Zeit für Iterationen während des Entwicklungszyklus.	Gesamte Iterationszeit ÷ Anzahl der Iterationen	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Zeit-zu-Prototyping	Durchschnittliche Zeit braucht es, um den ersten Prototyp zu erstellen.	Gesamt-Prototypenzeit ÷ Anzahl der Prototypen	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Bezeichnung des Flaschenhalses Preis	Prozentsatz der Projekte, bei denen Verzögerungen aufgrund von Engpässen festgestellt wurden.	(Projekte mit Engpässen ÷ Gesamtprojekte) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Verzögerungsrate	Prozentsatz der über die geplante Frist hinaus verzögerten Projekte oder Produkte.	(Verzögerte Projekte ÷ Gesamtprojekte) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Durchschnittliche Zulassungszeit	Zeit genommen, um Genehmigungen für den Fortschritt im Entwicklungsprozess zu erhalten.	Gesamtgenehmigungszeit ÷ Anzahl der Genehmigungen	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Zeit-zu-Testing	Durchschnittliche Zeit für die Initiierung und Vervollständigung von Produkttestphasen.	Gesamttestzeit ÷ Anzahl der Testzyklen	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Launch Readiness Index	Composite-Score-Bewertung der Startbereitschaft basierend auf Schlüsselkriterien (Test, Genehmigung, etc.).	Gewichtetes Ergebnis basierend auf Bereitschaftskriterien	Hoch	
+🛠️ Produktentwicklung Kennzahlen	Qualität und Innovation Kennzahlen				
+🛠️ Produktentwicklung Kennzahlen	Defektrate	Prozentsatz der bei der Entwicklung oder nach dem Start festgestellten Mängel.	(Defektive Produkte ÷ Gesamtprodukte) × 100	Hoch	Link
+🛠️ Produktentwicklung Kennzahlen	Anzahl der eingereichten Patente	Gesamtzahl der Patente, die durch Innovation in der Produktentwicklung eingereicht wurden.	Anzahl der eingereichten Patente	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Prozentsatz der neuen Funktionen angenommen	Prozentsatz der neu entwickelten Funktionen, die von den Nutzern erfolgreich übernommen wurden.	(Adopted Features ÷ Neue Features insgesamt) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	First-Pass Yield (FPY)	Prozentsatz der Produkte, die Qualitätstests am ersten Versuch durchführen.	(Units Passed First Attempt ÷ Total Units Tested) × 100	Hoch	
+🛠️ Produktentwicklung Kennzahlen	Kundenbeschwerdenquote	Anzahl der Kundenbeschwerden im Zusammenhang mit der Produktqualität pro verkaufter Einheit.	(Gesamtbeschwerden ÷ Einheiten Verkauft) × 100	Hoch	Link
+🛠️ Produktentwicklung Kennzahlen	ROI Innovation	Return on Investitionen aus Innovationsbemühungen in der Produktentwicklung.	(Revenue von Innovationen - Innovationskosten) ÷ Innovationskosten × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Produkttest Pass Rate	Prozentsatz der Produkte, die alle Prüfkriterien erfüllen.	(Passed Tests ÷ Gesamttests durchgeführt) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Zeit zum Lösen von Qualitätsproblemen	Durchschnittliche Zeit, die benötigt wird, um gemeldete Qualitätsprobleme zu beheben.	Gesamtauflösung Zeit ÷ Anzahl der Probleme	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Idea-to-Implementierung Verhältnis	Prozentsatz der Ideen, die erfolgreich umgesetzt werden.	(Implementierte Ideen ÷ Gesamte Ideen) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Prozentsatz nachhaltiger Produkte	Prozentsatz der Produkte, die mit nachhaltigen oder umweltfreundlichen Materialien entwickelt wurden.	(Nachhaltige Produkte ÷ Gesamtprodukte) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Ressourcen- und Kosteneffizienzkennzahlen				
+🛠️ Produktentwicklung Kennzahlen	FuE Ausgaben als Prozentsatz der Einnahmen	Prozentsatz der Einnahmen, die den Forschungs- und Entwicklungstätigkeiten zugewiesen werden.	(Fortsetzung) × 100	Hoch	
+🛠️ Produktentwicklung Kennzahlen	Kosten pro Feature entwickelt	Durchschnittliche Kosten für die Entwicklung einer einzigen Funktion.	Gesamtentwicklungskosten ÷ Anzahl der Funktionen Entwickelt	Mittel	Link
+🛠️ Produktentwicklung Kennzahlen	Teamnutzung Preis	Prozentsatz der Teamstunden für produktive Entwicklungsaufgaben.	(Aktuelle Arbeitszeit ÷ Verfügbare Arbeitszeiten) × 100	Hoch	Link
+🛠️ Produktentwicklung Kennzahlen	Entwicklung Budget Adhering	Prozentsatz der im Rahmen des zugeteilten Haushaltsplans abgeschlossenen Projekte.	(Projekte zum Haushalt ÷ Gesamtprojekte) × 100	Hoch	
+🛠️ Produktentwicklung Kennzahlen	Ressourcen-Allokationseffizienz	Prozentsatz der Ressourcen, die in Projekten effektiv genutzt werden.	(Allocated Resources ÷ Verfügbare Ressourcen) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Kostenüberschreitung Prozentsatz	Prozentsatz, um den die tatsächlichen Kosten die Kosten übersteigen.	(Aktuelle Kosten - Geschätzte Kosten) ÷ Geschätzte Kosten × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Preis-Leistungs-Verhältnis	Die durchschnittlichen Kosten der Merkmale entwickelten sich als Anteil der Gesamtproduktkosten.	Gesamtentwicklungskosten ÷ Gesamtproduktentwicklungskosten	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Entwicklungsrückstand	Prozentsatz der Entwicklungsarbeiten, die Nacharbeiten oder Korrekturen erfordern.	(Reworked Features ÷ Gesamteigenschaften) × 100	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Durchschnittliche Entwicklungskosten pro Stunde	Kosten der Entwicklungsarbeit pro Stunde Teambemühung.	Gesamtentwicklungskosten ÷ Gesamtarbeitsstunden	Mittel	
+🛠️ Produktentwicklung Kennzahlen	Resource Turnover Preis	Prozentsatz der Teammitglieder, die während des Entwicklungsprozesses ersetzt wurden.	(Teammitglieder Ersetzt ÷ Gesamtmitglieder) × 100	Mittel	

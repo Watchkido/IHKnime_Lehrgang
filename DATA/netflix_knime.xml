@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/Workflow">
+    <entry key="name" type="xstring">Predictive Maintenance Data Cleaning & Analysis</entry>
+    <entry key="author" type="xstring">KNIME Assistant</entry>
+    <entry key="created" type="xstring">2025-01-01</entry>
+
+    <entry key="description" type="xstring">
+        Kompletter KNIME Workflow zur Bereinigung der Predictive Maintenance Daten,
+        Behandlung von Ausreißern, Feature Engineering und Vorbereitung für ML-Modelle.
+    </entry>
+
+    <config key="nodes">
+        <!-- Node 1: CSV Datei einlesen -->
+        <config key="node_1">
+            <entry key="factory" type="xstring">org.knime.base.node.io.csv.reader.CSVReaderNodeFactory</entry>
+            <entry key="name" type="xstring">Read CSV File</entry>
+            <entry key="description" type="xstring">Lädt die predictive_maintenance.csv Datei</entry>
+        </config>
+
+        <!-- Node 2: Unnötige Spalten entfernen -->
+        <config key="node_2">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.filter.column.DataColumnFilterNodeFactory</entry>
+            <entry key="name" type="xstring">Remove Unnecessary Columns</entry>
+            <entry key="description" type="xstring">Entfernt UDI, Product ID und Target Spalten</entry>
+        </config>
+
+        <!-- Node 3: Ausreißer in Rotational Speed behandeln -->
+        <config key="node_3">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.outlier3.OutlierNodeFactory3</entry>
+            <entry key="name" type="xstring">Handle Rotational Speed Outliers</entry>
+            <entry key="description" type="xstring">Behandelt 164 Ausreißer in Rotational Speed</entry>
+        </config>
+
+        <!-- Node 4: Ausreißer in Torque behandeln -->
+        <config key="node_4">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.outlier3.OutlierNodeFactory3</entry>
+            <entry key="name" type="xstring">Handle Torque Outliers</entry>
+            <entry key="description" type="xstring">Behandelt 25 Ausreißer in Torque</entry>
+        </config>
+
+        <!-- Node 5: Kategorische Variable Type kodieren -->
+        <config key="node_5">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.pmml.metanode.OneToManyNodeFactory</entry>
+            <entry key="name" type="xstring">Encode Type Variable</entry>
+            <entry key="description" type="xstring">One-Hot Encoding für Type (M, L, H)</entry>
+        </config>
+
+        <!-- Node 6: Numerische Spalten normalisieren -->
+        <config key="node_6">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.normalize3.NormalizerNodeFactory3</entry>
+            <entry key="name" type="xstring">Normalize Numeric Columns</entry>
+            <entry key="description" type="xstring">Normalisiert alle numerischen Features</entry>
+        </config>
+
+        <!-- Node 7: Korrelierte Features behandeln -->
+        <config key="node_7">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.pca.PCANodeFactory2</entry>
+            <entry key="name" type="xstring">PCA for Correlated Features</entry>
+            <entry key="description" type="xstring">Reduziert Multikollinearität (Air/Process Temp)</entry>
+        </config>
+
+        <!-- Node 8: Daten explorieren mit Statistics -->
+        <config key="node_8">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.statistics2.StatisticsNodeFactory2</entry>
+            <entry key="name" type="xstring">Data Statistics</entry>
+            <entry key="description" type="xstring">Generiert statistische Übersicht der bereinigten Daten</entry>
+        </config>
+
+        <!-- Node 9: Visualisierung mit Scatter Plot -->
+        <config key="node_9">
+            <entry key="factory" type="xstring">org.knime.base.node.viz.plotter.scatter.ScatterPlotNodeFactory</entry>
+            <entry key="name" type="xstring">Correlation Scatter Plot</entry>
+            <entry key="description" type="xstring">Visualisiert Korrelationen zwischen Features</entry>
+        </config>
+
+        <!-- Node 10: Train/Test Split -->
+        <config key="node_10">
+            <entry key="factory" type="xstring">org.knime.base.node.preproc.partition3.PartitionNodeFactory3</entry>
+            <entry key="name" type="xstring">Train Test Split</entry>
+            <entry key="description" type="xstring">Teilt Daten in Trainings- und Testset (80/20)</entry>
+        </config>
+
+        <!-- Node 11: Random Forest Training -->
+        <config key="node_11">
+            <entry key="factory" type="xstring">org.knime.base.node.mine.rtree.learner2.RFLearnerNodeFactory2</entry>
+            <entry key="name" type="xstring">Random Forest Classifier</entry>
+            <entry key="description" type="xstring">Trainiert Random Forest für Failure Type Vorhersage</entry>
+        </config>
+
+        <!-- Node 12: Vorhersagen -->
+        <config key="node_12">
+            <entry key="factory" type="xstring">org.knime.base.node.mine.rtree.predictor2.RFPredictorNodeFactory2</entry>
+            <entry key="name" type="xstring">Make Predictions</entry>
+            <entry key="description" type="xstring">Macht Vorhersagen auf Testdaten</entry>
+        </config>
+
+        <!-- Node 13: Modell Evaluation -->
+        <config key="node_13">
+            <entry key="factory" type="xstring">org.knime.base.node.mine.scorer.ScorerNodeFactory2</entry>
+            <entry key="name" type="xstring">Evaluate Model</entry>
+            <entry key="description" type="xstring">Berechnet Genauigkeit, Precision, Recall, F1-Score</entry>
+        </config>
+
+        <!-- Node 14: Bereinigte Daten exportieren -->
+        <config key="node_14">
+            <entry key="factory" type="xstring">org.knime.base.node.io.csv.writer.CSVWriterNodeFactory</entry>
+            <entry key="name" type="xstring">Export Cleaned Data</entry>
+            <entry key="description" type="xstring">Exportiert bereinigte Daten als CSV</entry>
+        </config>
+
+        <!-- Node 15: Modell Performance Report -->
+        <config key="node_15">
+            <entry key="factory" type="xstring">org.knime.base.node.io.filereader.DataToReportNodeFactory</entry>
+            <entry key="name" type="xstring">Generate Report</entry>
+            <entry key="description" type="xstring">Erstellt einen Analyse-Report</entry>
+        </config>
+    </config>
+
+    <config key="connections">
+        <config key="connection_1">
+            <entry key="source" type="xint">1</entry>
+            <entry key="dest" type="xint">2</entry>
+        </config>
+        <config key="connection_2">
+            <entry key="source" type="xint">2</entry>
+            <entry key="dest" type="xint">3</entry>
+        </config>
+        <config key="connection_3">
+            <entry key="source" type="xint">3</entry>
+            <entry key="dest" type="xint">4</entry>
+        </config>
+        <config key="connection_4">
+            <entry key="source" type="xint">4</entry>
+            <entry key="dest" type="xint">5</entry>
+        </config>
+        <config key="connection_5">
+            <entry key="source" type="xint">5</entry>
+            <entry key="dest" type="xint">6</entry>
+        </config>
+        <config key="connection_6">
+            <entry key="source" type="xint">6</entry>
+            <entry key="dest" type="xint">7</entry>
+        </config>
+        <config key="connection_7">
+            <entry key="source" type="xint">7</entry>
+            <entry key="dest" type="xint">8</entry>
+        </config>
+        <config key="connection_8">
+            <entry key="source" type="xint">7</entry>
+            <entry key="dest" type="xint">10</entry>
+        </config>
+        <config key="connection_9">
+            <entry key="source" type="xint">10</entry>
+            <entry key="dest" type="xint">11</entry>
+        </config>
+        <config key="connection_10">
+            <entry key="source" type="xint">11</entry>
+            <entry key="dest" type="xint">12</entry>
+        </config>
+        <config key="connection_11">
+            <entry key="source" type="xint">12</entry>
+            <entry key="dest" type="xint">13</entry>
+        </config>
+        <config key="connection_12">
+            <entry key="source" type="xint">7</entry>
+            <entry key="dest" type="xint">14</entry>
+        </config>
+        <config key="connection_13">
+            <entry key="source" type="xint">13</entry>
+            <entry key="dest" type="xint">15</entry>
+        </config>
+    </config>
+</config>

@@ -1,0 +1,98 @@
+================================================================================
+CSV ANALYSE REPORT - kundendaten.csv
+Erstellt am: 20.11.2025 09:51:23
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 2364 Zeilen × 7 Spalten
+🔢 Gesamt-Datenpunkte: 16,548
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. kunden_id                 → int64        | Beispiele: 1, 2, 3
+ 2. name                      → object       | Beispiele: Dipl.-Ing. Nadeshda Hethu, Klemens Becker-Berger, Valeska Karz
+ 3. email                     → object       | Beispiele: abdulmueller@example.com, traudlnerger@example.net, gutknechtwieland@example.
+ 4. telefon                   → object       | Beispiele: 05883 65124, +49 (0) 3514 366231, (01967) 34412
+ 5. geburtsdatum              → object       | Beispiele: 1954-01-16, 1959-04-02, 1984-10-04
+ 6. adresse                   → object       | Beispiele: Khlerring 19/22; Ludwigs, Aleksander-Schmidt-Gasse , Kuhlallee 58/80; Paderbor
+ 7. registrierungsdatum       → object       | Beispiele: 2025-06-11, 2023-02-10, 2024-08-17
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+   kunden_id                      name                     email              telefon geburtsdatum                   adresse registrierungsdatum
+0          1  Dipl.-Ing. Nadeshda H...  abdulmueller@example.com          05883 65124   1954-01-16  Khlerring 19/22; Lud...          2025-06-11
+1          2     Klemens Becker-Berger  traudlnerger@example.net  +49 (0) 3514 366231   1959-04-02  Aleksander-Schmidt-Ga...          2023-02-10
+2          3              Valeska Karz  gutknechtwieland@exam...        (01967) 34412   1984-10-04  Kuhlallee 58/80; Pade...          2024-08-17
+3          4           Rosalia Radisch  goenuelbauer@example.net       (06020) 972727   1995-09-30  Jozef-Prtzelt-Platz ...          2023-07-22
+4          5         Rose Spieá-Caspar      yilmaz36@example.net          01180490722   1981-03-13  Hethurplatz 8998; Fin...          2025-11-18
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+      kunden_id                      name                     email            telefon geburtsdatum                   adresse registrierungsdatum
+2359       2360  Dr. Saskia Whner B.Eng.        theser@example.com  +49(0)5889 091354   1989-04-05  Yilmaz-Riehl-Platz 54...          2023-03-02
+2360       2361        Ing. Kthi Khnert  dimitriosbaehr@exampl...  +49(0)2190 042144   1970-02-18  Lehmannring 8-8; Mitt...          2022-06-19
+2361       2362           Erna Trb B.Sc.  viktoriawaehner@examp...   +49(0)5206 73353   1952-06-28  Geislerstraáe 578; Zo...          2023-09-12
+2362       2363            Saban Bachmann     muratseip@example.org   +49(0) 855157746   1975-04-05  Toni-Kroker-Allee 813...          2023-05-11
+2363       2364    Wera Stadelmann B.Eng.   krebslidija@example.org       09034 843075   1966-07-26  Annerose-Brner-Weg 5...          2022-08-30
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 2364 entries, 0 to 2363
+Data columns (total 7 columns):
+  0  kunden_id              2364 non-null  int64
+  1  name                   2364 non-null  object
+  2  email                  2364 non-null  object
+  3  telefon                2364 non-null  object
+  4  geburtsdatum           2364 non-null  object
+  5  adresse                2364 non-null  object
+  6  registrierungsdatum    2364 non-null  object
+Memory usage: 1032.7 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+✅ Keine fehlenden Werte gefunden!
+
+🔢 6. NUMERISCHE STATISTIKEN
+----------------------------------------
+        kunden_id
+count  2364.00000
+mean   1182.50000
+std     682.57234
+min       1.00000
+25%     591.75000
+50%    1182.50000
+75%    1773.25000
+max    2364.00000
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+name                     : 2364 eindeutige Werte, häufigster: 'Abbas Dietz-Jhn'
+email                    : 2356 eindeutige Werte, häufigster: 'aeckbauer@example.net'
+telefon                  : 2364 eindeutige Werte, häufigster: '(00012) 453618'
+geburtsdatum             : 2228 eindeutige Werte, häufigster: '1952-06-28'
+adresse                  : 2364 eindeutige Werte, häufigster: 'Abbas-Nerger-Platz 99/48; Jterbog; 14404'
+registrierungsdatum      : 1329 eindeutige Werte, häufigster: '2024-02-02'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+⚠️ Mindestens 2 numerische Spalten für erweiterte Analysen erforderlich
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+kunden_id              0
+name                   0
+email                  0
+telefon                0
+geburtsdatum           0
+adresse                0
+registrierungsdatum    0

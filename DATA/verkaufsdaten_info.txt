@@ -1,0 +1,137 @@
+================================================================================
+CSV ANALYSE REPORT - verkaufsdaten.csv
+Erstellt am: 20.11.2025 09:51:00
+================================================================================
+
+🔍 1. GRUNDLEGENDE INFORMATIONEN
+----------------------------------------
+📊 Shape: 4123 Zeilen × 7 Spalten
+🔢 Gesamt-Datenpunkte: 28,861
+
+📋 2. SPALTEN MIT DATENTYPEN
+----------------------------------------
+ 1. order_id                  → int64        | Beispiele: 782, 1785, 218
+ 2. kunden_id                 → float64      | Beispiele: 386.0, 384.0, 154.0
+ 3. preis                     → object       | Beispiele: 05, 67, 22
+ 4. beschreibung              → object       | Beispiele: Staubwischer Set, Wasserkocher, Roman 'Nordwind'
+ 5. anzahl                    → object       | Beispiele: 5, 1, 2
+ 6. kaufdatum                 → object       | Beispiele: 2024-11-23 13:41:01, 2024-12-05 00:16:44, 2025-10-31 23:37:57
+ 7. kunde                     → object       | Beispiele: Dipl.-Ing. Horst-Dieter K, Univ.Prof. Halil Kambs, Klothilde Kohl B.Sc.
+
+👀 3. ERSTE 5 ZEILEN (HEAD)
+----------------------------------------
+            order_id  kunden_id preis      beschreibung anzahl            kaufdatum                     kunde
+ORD-100000       782      386.0    05  Staubwischer Set      5  2024-11-23 13:41:01  Dipl.-Ing. Horst-Diet...
+ORD-100001      1785      384.0    67      Wasserkocher      5  2024-12-05 00:16:44    Univ.Prof. Halil Kambs
+ORD-100002       218      154.0    22  Roman 'Nordwind'      1  2025-10-31 23:37:57      Klothilde Kohl B.Sc.
+ORD-100003       731      144.0    33            Parfm      2  2024-12-05 03:03:11  Giovanna Juncken-Acke...
+ORD-100004      1161      426.0    41      Duschgel Set      5  2025-10-08 05:03:17     Isabell Beer-Gotthard
+
+👁️ LETZTE 5 ZEILEN (TAIL)
+----------------------------------------
+            order_id  kunden_id                preis beschreibung               anzahl               kaufdatum kunde
+ORD-104118       263     447.65     Staubwischer Set            5  2025-03-26 07:34:39  Patrick Stahr-Lachmann   NaN
+ORD-104119       517     218.66  Reisefhrer Italien            5  2025-10-29 07:13:44      Angelika Holzapfel   NaN
+ORD-104120      1531     147.99              Haarkur            1  2025-03-18 06:32:34     Prof. Zoltan Scheel   NaN
+ORD-104121      2262     251.35         Duschgel Set            1  2025-01-04 16:56:17      Klaus Peter Becker   NaN
+ORD-104122      2351     226.15        LED Stehlampe            3  2025-03-29 19:59:32        Elenore Hartmann   NaN
+
+📊 4. DATAFRAME INFO
+----------------------------------------
+RangeIndex: 4123 entries, 0 to 4122
+Data columns (total 7 columns):
+  0  order_id               4123 non-null  int64
+  1  kunden_id              4123 non-null  float64
+  2  preis                  4123 non-null  object
+  3  beschreibung           4123 non-null  object
+  4  anzahl                 4123 non-null  object
+  5  kaufdatum              4123 non-null  object
+  6  kunde                     9 non-null  object
+Memory usage: 1617.6 KB
+
+❌ 5. NULL VALUES (FEHLENDE WERTE)
+----------------------------------------
+🚨 Gesamt fehlende Werte: 4,114
+kunde: 4114 fehlend (99.8%)
+
+🔢 6. NUMERISCHE STATISTIKEN
+----------------------------------------
+          order_id    kunden_id
+count  4123.000000  4123.000000
+mean   1195.922872   227.201666
+std     680.675433   129.981176
+min       2.000000     5.010000
+25%     618.500000   111.405000
+50%    1178.000000   229.180000
+75%    1786.500000   339.420000
+max    2364.000000   449.640000
+
+📝 7. KATEGORISCHE SPALTEN ANALYSE
+----------------------------------------
+preis                    :   33 eindeutige Werte, häufigster: 'Sporttasche'
+beschreibung             :   12 eindeutige Werte, häufigster: '1'
+anzahl                   : 4118 eindeutige Werte, häufigster: '5'
+kaufdatum                : 4115 eindeutige Werte, häufigster: 'Bernhard Pohl'
+kunde                    :    9 eindeutige Werte, häufigster: 'Dipl.-Ing. Horst-Dieter Keudel B.Eng.'
+
+⭐ 8. ZUSÄTZLICHE INFORMATIONEN
+----------------------------------------
+🔁 Duplikate: 0
+📭 Komplett leere Zeilen: 0
+
+🔗 9. KORRELATIONEN (NUMERISCHE SPALTEN)
+----------------------------------------
+✅ Keine sehr hohen Korrelationen gefunden
+
+================================================================================
+🚀 ERWEITERTE STATISTISCHE ANALYSEN
+================================================================================
+
+🔍 FORENSISCHE STATISTIK - ANOMALIEERKENNUNG
+--------------------------------------------------
+Werte mit |z-score| > 3 gelten als Ausreißer, da sie deutlich vom Mittelwert abweichen. Solche Anomalien können auf Messfehler, Datenprobleme oder besondere Ereignisse hinweisen. Sie sollten genauer geprüft werden, da sie die Analyse beeinflussen können.
+order_id: 0 Ausreißer (|z|>3.0)
+kunden_id: 0 Ausreißer (|z|>3.0)
+
+🧭 EXPLORATIVE STATISTIK - VERTEILUNGSANALYSE
+--------------------------------------------------
+Die Schiefe beschreibt, ob die Verteilung symmetrisch oder verzerrt ist. Die Kurtosis gibt an, ob die Verteilung spitz oder flach ist. Diese Maße helfen, die Form der Datenverteilung besser zu verstehen.
+order_id: Schiefe=-0.00 (symmetrisch), Kurtosis=-1.19 (flach (platykurtisch))
+kunden_id: Schiefe=-0.00 (symmetrisch), Kurtosis=-1.22 (flach (platykurtisch))
+
+🔮 PRÄDIKTIVE STATISTIK - REGRESSIONSANALYSE
+--------------------------------------------------
+Eine lineare Regression zeigt den Zusammenhang zwischen zwei Variablen. Die Regressionsgleichung und der R²-Wert geben an, wie gut die Daten durch das Modell erklärt werden. Prognosen sind möglich, sollten aber kritisch geprüft werden.
+kunden_id = -0.003 * order_id + ... (R²=0.000)
+
+🧠 DIAGNOSTISCHE STATISTIK - KORRELATIONEN
+--------------------------------------------------
+Korrelationen zeigen, wie stark zwei Variablen zusammenhängen. Ein hoher positiver oder negativer Wert weist auf einen engen Zusammenhang hin. Korrelation bedeutet jedoch nicht automatisch Kausalität.
+✅ Keine sehr hohen Korrelationen gefunden
+
+🔄 KAUSALE STATISTIK - REGRESSIONSSTATISTIKEN
+--------------------------------------------------
+Eine multiple Regression analysiert den Einfluss mehrerer Variablen auf eine Zielgröße. Die Koeffizienten und p-Werte geben Aufschluss über die Bedeutung der einzelnen Einflussfaktoren. Ein gutes Modell erklärt einen hohen Anteil der Varianz.
+
+⏳ ZEITREIHENANALYSE
+--------------------------------------------------
+Zeitreihenanalysen erkennen Trends und Muster über die Zeit. Die Steigung zeigt, ob ein Wert im Zeitverlauf steigt, fällt oder stabil bleibt. Solche Analysen sind wichtig für Prognosen und saisonale Effekte.
+📈 Trend für order_id: fallend (Steigung: -0.518744/Tag)
+
+🎯 PRÄSKRIPTIVE STATISTIK - OPTIMIERUNGSEMPFEHLUNGEN
+--------------------------------------------------
+Optimierungsempfehlungen basieren auf Korrelationen zwischen Ziel- und Einflussgrößen. Sie zeigen, welche Werte angepasst werden könnten, um das Ziel zu verbessern. Die Empfehlungen sollten immer im Kontext geprüft werden.
+Keine starken Einflussfaktoren gefunden.
+
+================================================================================
+AMAZON-ANALYSE: SPEZIELLE AUSWERTUNGEN
+================================================================================
+
+Fehlende Werte pro Spalte:
+kunde           4114
+kunden_id          0
+order_id           0
+preis              0
+beschreibung       0
+anzahl             0
+kaufdatum          0
